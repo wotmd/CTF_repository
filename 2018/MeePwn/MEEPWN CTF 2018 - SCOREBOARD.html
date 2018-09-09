@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)https://scoreboard.meepwn.team/task -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <title>MEEPWN CTF 2018 - SCOREBOARD</title>
+<!-- <link href="/static/css/bootstrap.min.css" rel="stylesheet" /> -->
+<!-- <link href="/static/css/bootstrap-responsive.min.css" rel="stylesheet" /> -->
+
+<!--
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+-->
+<!--
+<link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text" rel="stylesheet">
+-->
+
+<link href="./MEEPWN CTF 2018 - SCOREBOARD_files/bootstrap_4.4.css" rel="stylesheet">
+
+
+<script src="./MEEPWN CTF 2018 - SCOREBOARD_files/jquery-3.3.1.slim.min.js.다운로드" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="./MEEPWN CTF 2018 - SCOREBOARD_files/popper.min.js.다운로드" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="./MEEPWN CTF 2018 - SCOREBOARD_files/bootstrap.min.js.다운로드" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+<!-- <link href="/static/css/main.css" rel="stylesheet" /> -->
+
+<link href="./MEEPWN CTF 2018 - SCOREBOARD_files/buttons2.css" rel="stylesheet">
+<link href="./MEEPWN CTF 2018 - SCOREBOARD_files/css" rel="stylesheet">
+
+
+    
+    </head>
+    <body>
+        
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+      <h5 class="my-0 mr-md-auto font-weight-normal"><!--MEEPWN CTF 2018--><img src="./MEEPWN CTF 2018 - SCOREBOARD_files/meepwn_text.png" width="100" height="45/"></h5>
+      <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" href="https://scoreboard.meepwn.team/">Home</a>
+        <!--
+	<a class="p-2 text-dark" href="/about">About</a>
+        -->
+	<a class="p-2 text-dark" href="https://scoreboard.meepwn.team/rules">Rules</a>
+        
+	<a class="p-2 text-dark" href="https://scoreboard.meepwn.team/teams">Teams List</a>
+        <a class="p-2 text-dark" href="https://scoreboard.meepwn.team/task">Task</a>
+        <a class="p-2 text-dark" href="https://scoreboard.meepwn.team/finalscore">Final Score</a>
+        <a class="p-2 text-dark" href="https://scoreboard.meepwn.team/scoreboard">Game</a>
+        
+        <a class="btn btn-outline-primary" href="https://scoreboard.meepwn.team/register">Register/Login</a>
+        
+        
+
+      </nav>
+      
+    </div>
+        
+        
+            
+        
+
+        <div class="holder">
+        
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("July 15, 2018 19:00:00 UTC").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-12">
+			<center><h2 id="demo">EXPIRED</h2></center>
+                    <div class="progress progress-striped active">
+                          <div class="progress-bar bg-danger" style="width: 0.0%;"></div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-2 formtask center"></div>
+                <div class="col-md-8 formtask ">
+
+                    <div class="card-deck mb-3">
+                        
+                        <div class="card mb-4 box-shadow" id="task26" style="display:none;">
+
+                            <div class="card-header  up" style="text-align: center; font-size: 1.5em">Worldcup: Third place match<br>100</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc">Let's predict the winner of the match tonight. Who will be 3rd place ?<br>
+Your team will get 100 points bonus if you predict correctly. Otherwise, you will get -100 points if predict incorrectly.<br>
+<br>
+In case, you're not interested. Leave it as "No predict". Have fun
+<br>
+Please go <a href="https://scoreboard.meepwn.team/worldcup">here</a> to vote.<br>
+Notice: The voting will be closed when the match get started.</p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                        <div class="card mb-4 box-shadow" id="task28" style="display:none;">
+
+                            <div class="card-header  up" style="text-align: center; font-size: 1.5em">Feedback<br>100</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc">Please leave us a <a href="https://goo.gl/forms/B9D09XMLyzQaMsMh1">feedback</a> to let us know what is good/bad. Thanks
+<br>
+If you're still working on challenges, you can complete this after the game ends; It's okay.
+<br>
+Flag: MeePwnCTF{FEEDBACK}</p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                        <div class="card mb-4 box-shadow" id="task29" style="display:none;">
+
+                            <div class="card-header  up" style="text-align: center; font-size: 1.5em">Worldcup: WINNER<br>100</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc">Let's predict the winner of the match tonight. Who will be 1st place ?<br> Your team will get 100 points bonus if you predict correctly. Otherwise, you will get -100 points if predict incorrectly.<br> <br> In case, you're not interested. Leave it as "No predict". Have fun <br> Please go <a href="https://scoreboard.meepwn.team/worldcup">here</a> to vote.<br> Notice: The voting will be closed when the match get started.
+<br><br>
+We will calculate all the points after this match.</p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                        <div class="card mb-4 box-shadow" id="task1" style="display:none;">
+
+                            <div class="card-header  fill" style="text-align: center; font-size: 1.5em">Coin<br>960</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc">Chim always stuck in coin trading. Can you help my friend win this game?
+<br>
+<code>nc 128.199.188.193 33371<br>
+nc 178.128.6.177 33371</code>
+<br>
+<a href="https://ctf.meepwn.team/attachments/pwn/Coin.zip" download="">[Coin.zip]</a></p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                        <div class="card mb-4 box-shadow" id="task2" style="display:none;">
+
+                            <div class="card-header  fill" style="text-align: center; font-size: 1.5em">house_of_card<br>420</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc"><code>nc 178.128.87.12 31336</code>
+<br>
+<a href="https://ctf.meepwn.team/attachments/pwn/house_of_card_75b74515161bed0d424f0541184ce933.tar.gz" download="">[Attachments]</a></p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                        <div class="card mb-4 box-shadow" id="task3" style="display:none;">
+
+                            <div class="card-header  fill" style="text-align: center; font-size: 1.5em">babysandbox<br>100</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc">Do you know Unicorn engine? Let's bypass my baby sandbox
+<br>
+<code>http://178.128.100.75/</code></p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                        <div class="card mb-4 box-shadow" id="task4" style="display:none;">
+
+                            <div class="card-header  fill" style="text-align: center; font-size: 1.5em">one_shot<br>480</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc"><code>nc 178.128.87.12 31338</code>
+<br>
+<a href="https://ctf.meepwn.team/attachments/pwn/one_shot_7f980ea94c21c4c45b47b126b8678777.tar.gz" download="">[Attachments]</a></p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                        <div class="card mb-4 box-shadow" id="task5" style="display:none;">
+
+                            <div class="card-header  fill" style="text-align: center; font-size: 1.5em">secure_message<br>920</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc"><code>nc 178.128.87.12 31337</code>
+<br>
+<a href="https://ctf.meepwn.team/attachments/pwn/secure_message_e03668e53769102bd6fddd620ed0c991.tar.gz" download="">[Attachments]</a></p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                        <div class="card mb-4 box-shadow" id="task6" style="display:none;">
+
+                            <div class="card-header  closex" style="text-align: center; font-size: 1.5em">Ex5<br>500</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc">Just for fun :)
+<br>
+<a href="https://ctf.meepwn.team/attachments/re/M.ex5" download="">[Attachments]</a></p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                        <div class="card mb-4 box-shadow" id="task7" style="display:none;">
+
+                            <div class="card-header  closex" style="text-align: center; font-size: 1.5em">Baby1njector<br>820</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc">Something encypted my flag, can you help me decrypt it?
+<br>
+<a href="https://ctf.meepwn.team/attachments/re/BabyInjector_d120c97c4efd8e687e9bab6f4ced76fb.zip" download="">[Attachments]</a></p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                        <div class="card mb-4 box-shadow" id="task8" style="display:none;">
+
+                            <div class="card-header  closex" style="text-align: center; font-size: 1.5em">XSS<br>900</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc">The flag format is MeePwnCTF{correct_input}
+<br>
+Unzip password: <code>MeePwn</code><br><br>
+<a href="https://drive.google.com/file/d/16jl_hAV-6_BEI3NPrewt9nY0revupWTV/view">[Attachments]</a></p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                        <div class="card mb-4 box-shadow" id="task9" style="display:none;">
+
+                            <div class="card-header  closex" style="text-align: center; font-size: 1.5em">image_crackme<br>100</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc">Find the key that was used to generate Meepwn.ascii.bak<br>
+Sometimes you don't really need to read the code <br>
+Notice: Flag is in format <code>MeePwn{...}</code><br>
+<a href="https://ctf.meepwn.team/attachments/re/image_crackme_161442072f9003ed4bdc61c1b87837fa.zip" download="">[Attachments]</a></p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                        <div class="card mb-4 box-shadow" id="task10" style="display:none;">
+
+                            <div class="card-header  raise" style="text-align: center; font-size: 1.5em">Mapl Story<br>840</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc">Someone hack my website, can you help me check it?<br>
+
+<code>http://178.128.87.16/</code><br>
+
+<a href="https://ctf.meepwn.team/attachments/web/MaplStory_f7056ad79428f636ca4e92f283727818ecc0dd70ecb95f8a12e2764df0946022.zip" download="">[Attachments]</a>
+</p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                        <div class="card mb-4 box-shadow" id="task11" style="display:none;">
+
+                            <div class="card-header  raise" style="text-align: center; font-size: 1.5em">Grandline<br>700</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc">It was said to be hidden somewhere deep in the Grand Line, someone in the second part of Grand Line can capture it, could you tell them to give it for you. Let's start a trip in <a href="http://178.128.6.184/3915ef41890b96cc883ba6ef06b944805c9650ee/">Grand Line</a></p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                        <div class="card mb-4 box-shadow" id="task12" style="display:none;">
+
+                            <div class="card-header  raise" style="text-align: center; font-size: 1.5em">MeePwnTube<br>940</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc">We would like to introduce the next generation of video page <a href="http://meepwntube.0x1337.space/">MeePwnTube</a><br>
+or<br>
+<a href="http://bak.meepwntube.0x1337.space/">http://bak.meepwntube.0x1337.space/</a><br><br>
+
+<a href="https://ctf.meepwn.team/attachments/web/MeePwnTube_5c9c753ebf48450f448f9f2b9d50270b.zip" download="">[Attachments]</a>
+</p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                        <div class="card mb-4 box-shadow" id="task13" style="display:none;">
+
+                            <div class="card-header  raise" style="text-align: center; font-size: 1.5em">OmegaSector<br>140</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc">Wtf !? I just want to go to OmegaSector but there is weird authentication here, please help me<br>
+
+<code>http://138.68.228.12/</code></p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                        <div class="card mb-4 box-shadow" id="task14" style="display:none;">
+
+                            <div class="card-header  up" style="text-align: center; font-size: 1.5em">meepwn contract<br>880</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc">Tty to open the <a href="http://178.128.87.12/smart-contract">gate</a> , flag will be sent if you open the gate via email</p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                        <div class="card mb-4 box-shadow" id="task15" style="display:none;">
+
+                            <div class="card-header  up" style="text-align: center; font-size: 1.5em">White Snow, Black Shadow<br>100</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc">Finally we caught the image in criminal communication. But Holmes, why are they crying?<br>
+<a href="https://ctf.meepwn.team/attachments/misc/evidence_3D71E1CC6B2599438A7C0173239A896E.zip" download="">[Attachments]</a>
+</p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                        <div class="card mb-4 box-shadow" id="task16" style="display:none;">
+
+                            <div class="card-header  pulse" style="text-align: center; font-size: 1.5em">Old school<br>740</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc"><a href="https://ctf.meepwn.team/attachments/crypto/old_school.zip_80af1c28f5a1966430878dfee15b2e4c" download="">[Attachments]</a></p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                        <div class="card mb-4 box-shadow" id="task17" style="display:none;">
+
+                            <div class="card-header  pulse" style="text-align: center; font-size: 1.5em">Still old school<br>860</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc"><code>nc 206.189.32.108 13579</code><br>
+<a href="https://ctf.meepwn.team/attachments/crypto/still_old_school_1cae7652aa3ff4e457e1bb94ff681688.zip" download="">[Attachments]</a></p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                        <div class="card mb-4 box-shadow" id="task18" style="display:none;">
+
+                            <div class="card-header  pulse" style="text-align: center; font-size: 1.5em">bazik<br>100</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc">A basic challenge will shine you...<br>
+<code>nc 206.189.92.209 31333</code>
+<br>
+<code>nc 178.128.17.82 31333 </code></p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                        <div class="card mb-4 box-shadow" id="task19" style="display:none;">
+
+                            <div class="card-header  pulse" style="text-align: center; font-size: 1.5em">esor<br>100</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc">Howdy, howdy...<br>
+<code>nc 206.189.92.209 12345</code><br>
+<a href="https://ctf.meepwn.team/attachments/crypto/testpoodle_bf32226e5cec38a544501e160724e3f7.py" download="">[Attachments]</a></p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                        <div class="card mb-4 box-shadow" id="task20" style="display:none;">
+
+                            <div class="card-header  pulse" style="text-align: center; font-size: 1.5em">bitbitbit<br>860</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc">Sometimes, author of this challenge doesn't know what to write at the description but he doesn't want to let it blank either. 
+So he writes something over here. :)) <br>
+
+Good luck. This challenge never requires guessing.<br>
+
+<code>nc 206.189.92.209 54321</code><br>
+<a href="https://ctf.meepwn.team/attachments/crypto/midbit_dfe0165b01a58a119eceff643c509a1f.py" download="">[Attachments]</a></p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                        <div class="card mb-4 box-shadow" id="task21" style="display:none;">
+
+                            <div class="card-header  pulse" style="text-align: center; font-size: 1.5em">ezchallz<br>100</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc"><code>http://206.189.92.209/ezchallz/</code></p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                        <div class="card mb-4 box-shadow" id="task22" style="display:none;">
+
+                            <div class="card-header  raise" style="text-align: center; font-size: 1.5em">PyCalx<br>100</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc">This code is supposed to be unexploitable :/ another pyjail?<br>
+<a href="http://178.128.96.203/cgi-bin/server.py?source=1">[Source]</a>
+<br>
+<a href="http://178.128.96.203/cgi-bin/server.py?value1=123&amp;op=%3D%3D&amp;value2=123"> Try this </a> or <a href="http://178.128.96.203/cgi-bin/server.py?value1=abc&amp;op=%3D%3D&amp;value2=abc">this</a>
+<br><br>
+Notice: The flag may contain non alphabetic characters (but still printable)</p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                        <div class="card mb-4 box-shadow" id="task23" style="display:none;">
+
+                            <div class="card-header  up" style="text-align: center; font-size: 1.5em">Welcome<br>100</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc">The default format of flag is <code>MeePwnCTF{...}</code>
+
+MeePwnCTF{welcome_to_meepwnctf_2018}</p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                        <div class="card mb-4 box-shadow" id="task24" style="display:none;">
+
+                            <div class="card-header  pulse" style="text-align: center; font-size: 1.5em">Silly Note<br>760</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc"><a href="http://silly-note.herokuapp.com/">Tell me your name</a><br>or<br>
+<a href="http://167.99.161.30:8080/">http://167.99.161.30:8080/</a></p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                        <div class="card mb-4 box-shadow" id="task25" style="display:none;">
+
+                            <div class="card-header  raise" style="text-align: center; font-size: 1.5em">PyCalx2<br>100</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc">You should solve <code>PyCalx</code> first.<br><br>
+
+<a href="http://206.189.223.3/cgi-bin/server.py?source=1">PyCalx2</a></p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                        <div class="card mb-4 box-shadow" id="task27" style="display:none;">
+
+                            <div class="card-header  up" style="text-align: center; font-size: 1.5em">0xBAD MINTON<br>740</div>
+                                    <div class="card-body">
+                                        <p class="taskdesc">Dear hackers, pwners, and web warriors,<br>
+Let's play badminton together for your health.<br>
+Before playing, you may want to check our courses to learn some basic skills firstly.<br>
+If you want a real match, please come here. We can have fun :p<br>
+
+<a href="http://178.128.84.72/courses.php">Courses</a>
+<br><br>
+This challenge is mixed: Web + Pwn.</p>
+                                        <hr>
+                                        
+                                        <p> Please login to submit flag</p>
+                                        
+                                    </div>
+
+
+                        </div>
+                        <!-- <button class="btn btn-success">abc</button> -->
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <table class="table-borderless tbltask" style="width: 100%;text-align: center;">
+                        <tbody><tr>
+                            
+                            <th style="text-align: center; font-size: 1.3em; text-transform: uppercase;">Binary</th>
+                            
+                            <th style="text-align: center; font-size: 1.3em; text-transform: uppercase;">Crypto</th>
+                            
+                            <th style="text-align: center; font-size: 1.3em; text-transform: uppercase;">Misc</th>
+                            
+                            <th style="text-align: center; font-size: 1.3em; text-transform: uppercase;">Pwn</th>
+                            
+                            <th style="text-align: center; font-size: 1.3em; text-transform: uppercase;">Web</th>
+                            
+                        </tr>
+                        
+                        <tr>
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_6" class="  btnx closex " id="#task6" onclick="open_task(6,10)">Ex5<br>
+                                         <span style="font-size: 11px !important">
+                                         26  solves 
+                                         <br>
+                                         500 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_16" class="  btnx pulse " id="#task16" onclick="open_task(16,10)">Old school<br>
+                                         <span style="font-size: 11px !important">
+                                         14  solves 
+                                         <br>
+                                         740 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_26" class="  btnx up " id="#task26" onclick="open_task(26,1)">Worldcup: Third place match<br>
+                                         <span style="font-size: 11px !important">
+                                         0  solve 
+                                         <br>
+                                         100 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_1" class="  btnx fill " id="#task1" onclick="open_task(1,10)">Coin<br>
+                                         <span style="font-size: 11px !important">
+                                         3  solves 
+                                         <br>
+                                         960 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_10" class="  btnx raise " id="#task10" onclick="open_task(10,10)">Mapl Story<br>
+                                         <span style="font-size: 11px !important">
+                                         9  solves 
+                                         <br>
+                                         840 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                        </tr>
+                        
+                        <tr>
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_7" class="  btnx closex " id="#task7" onclick="open_task(7,10)">Baby1njector<br>
+                                         <span style="font-size: 11px !important">
+                                         10  solves 
+                                         <br>
+                                         820 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_17" class="  btnx pulse " id="#task17" onclick="open_task(17,10)">Still old school<br>
+                                         <span style="font-size: 11px !important">
+                                         8  solves 
+                                         <br>
+                                         860 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_28" class="  btnx up " id="#task28" onclick="open_task(28,1)">Feedback<br>
+                                         <span style="font-size: 11px !important">
+                                         207  solves 
+                                         <br>
+                                         100 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_2" class="  btnx fill " id="#task2" onclick="open_task(2,10)">house_of_card<br>
+                                         <span style="font-size: 11px !important">
+                                         30  solves 
+                                         <br>
+                                         420 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_11" class="  btnx raise " id="#task11" onclick="open_task(11,10)">Grandline<br>
+                                         <span style="font-size: 11px !important">
+                                         16  solves 
+                                         <br>
+                                         700 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                        </tr>
+                        
+                        <tr>
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_8" class="  btnx closex " id="#task8" onclick="open_task(8,10)">XSS<br>
+                                         <span style="font-size: 11px !important">
+                                         6  solves 
+                                         <br>
+                                         900 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_18" class="  btnx pulse " id="#task18" onclick="open_task(18,10)">bazik<br>
+                                         <span style="font-size: 11px !important">
+                                         74  solves 
+                                         <br>
+                                         100 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_29" class="  btnx up " id="#task29" onclick="open_task(29,1)">Worldcup: WINNER<br>
+                                         <span style="font-size: 11px !important">
+                                         0  solve 
+                                         <br>
+                                         100 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_3" class="  btnx fill " id="#task3" onclick="open_task(3,10)">babysandbox<br>
+                                         <span style="font-size: 11px !important">
+                                         94  solves 
+                                         <br>
+                                         100 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_12" class="  btnx raise " id="#task12" onclick="open_task(12,10)">MeePwnTube<br>
+                                         <span style="font-size: 11px !important">
+                                         4  solves 
+                                         <br>
+                                         940 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                        </tr>
+                        
+                        <tr>
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_9" class="  btnx closex " id="#task9" onclick="open_task(9,10)">image_crackme<br>
+                                         <span style="font-size: 11px !important">
+                                         61  solves 
+                                         <br>
+                                         100 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_19" class="  btnx pulse " id="#task19" onclick="open_task(19,10)">esor<br>
+                                         <span style="font-size: 11px !important">
+                                         130  solves 
+                                         <br>
+                                         100 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_14" class="  btnx up " id="#task14" onclick="open_task(14,10)">meepwn contract<br>
+                                         <span style="font-size: 11px !important">
+                                         7  solves 
+                                         <br>
+                                         880 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_4" class="  btnx fill " id="#task4" onclick="open_task(4,10)">one_shot<br>
+                                         <span style="font-size: 11px !important">
+                                         27  solves 
+                                         <br>
+                                         480 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_13" class="  btnx raise " id="#task13" onclick="open_task(13,10)">OmegaSector<br>
+                                         <span style="font-size: 11px !important">
+                                         44  solves 
+                                         <br>
+                                         140 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                        </tr>
+                        
+                        <tr>
+                            
+                            
+                            <td class="closed"></td>
+                            
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_20" class="  btnx pulse " id="#task20" onclick="open_task(20,10)">bitbitbit<br>
+                                         <span style="font-size: 11px !important">
+                                         8  solves 
+                                         <br>
+                                         860 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_15" class="  btnx up " id="#task15" onclick="open_task(15,10)">White Snow, Black Shadow<br>
+                                         <span style="font-size: 11px !important">
+                                         181  solves 
+                                         <br>
+                                         100 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_5" class="  btnx fill " id="#task5" onclick="open_task(5,10)">secure_message<br>
+                                         <span style="font-size: 11px !important">
+                                         5  solves 
+                                         <br>
+                                         920 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_22" class="  btnx raise " id="#task22" onclick="open_task(22,10)">PyCalx<br>
+                                         <span style="font-size: 11px !important">
+                                         64  solves 
+                                         <br>
+                                         100 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                        </tr>
+                        
+                        <tr>
+                            
+                            
+                            <td class="closed"></td>
+                            
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_21" class="  btnx pulse " id="#task21" onclick="open_task(21,10)">ezchallz<br>
+                                         <span style="font-size: 11px !important">
+                                         60  solves 
+                                         <br>
+                                         100 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_23" class="  btnx up " id="#task23" onclick="open_task(23,10)">Welcome<br>
+                                         <span style="font-size: 11px !important">
+                                         744  solves 
+                                         <br>
+                                         100 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                            
+                            <td class="closed"></td>
+                            
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_25" class="  btnx raise " id="#task25" onclick="open_task(25,10)">PyCalx2<br>
+                                         <span style="font-size: 11px !important">
+                                         54  solves 
+                                         <br>
+                                         100 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                        </tr>
+                        
+                        <tr>
+                            
+                            
+                            <td class="closed"></td>
+                            
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_24" class="  btnx pulse " id="#task24" onclick="open_task(24,10)">Silly Note<br>
+                                         <span style="font-size: 11px !important">
+                                         13  solves 
+                                         <br>
+                                         760 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                            
+                            
+                                    <td><button type="button" href="#task_27" class="  btnx up " id="#task27" onclick="open_task(27,10)">0xBAD MINTON<br>
+                                         <span style="font-size: 11px !important">
+                                         14  solves 
+                                         <br>
+                                         740 pt
+                                        </span>
+                                    </button>
+                                    </td>
+                            
+                            
+                            
+                            
+                            <td class="closed"></td>
+                            
+                            
+                            
+                            <td class="closed"></td>
+                            
+                            
+                        </tr>
+                        
+                        <tr>
+                            
+                            
+                            <td class="closed"></td>
+                            
+                            
+                            
+                            <td class="closed"></td>
+                            
+                            
+                            
+                            <td class="closed"></td>
+                            
+                            
+                            
+                            <td class="closed"></td>
+                            
+                            
+                            
+                            <td class="closed"></td>
+                            
+                            
+                        </tr>
+                        
+                        <tr>
+                            
+                            
+                            <td class="closed"></td>
+                            
+                            
+                            
+                            <td class="closed"></td>
+                            
+                            
+                            
+                            <td class="closed"></td>
+                            
+                            
+                            
+                            <td class="closed"></td>
+                            
+                            
+                            
+                            <td class="closed"></td>
+                            
+                            
+                        </tr>
+                        
+                        <tr>
+                            
+                            
+                            <td class="closed"></td>
+                            
+                            
+                            
+                            <td class="closed"></td>
+                            
+                            
+                            
+                            <td class="closed"></td>
+                            
+                            
+                            
+                            <td class="closed"></td>
+                            
+                            
+                            
+                            <td class="closed"></td>
+                            
+                            
+                        </tr>
+                        
+                    </tbody></table>
+<!--                     <button class="btnx first">Button 1</button>
+                    <button class="btnx second">Button 1</button>
+                    <button class="btnx third">Button 1</button>
+                    <button class="btnx fourth">Button 1</button>
+                    <button class="btnx fifth">Button 1</button> -->
+                </div>
+
+            </div>
+        </div> <!-- end col-md-9 -->
+        <div class="col-md-12">
+            <br><br>
+           <div class="row">
+                <div class="col-md-3">
+                    <h4>Total: 0</h4>
+                    <h4>Rank: Unranked</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    
+                        <p><em>01:58AM 16/07/18</em> - <a href="https://scoreboard.meepwn.team/task/56">PiggyBird</a> capture <a href="https://scoreboard.meepwn.team/task#" onclick="open_task(2,10)">house_of_card</a></p>
+                    
+                        <p><em>01:56AM 16/07/18</em> - <a href="https://scoreboard.meepwn.team/task/225">TheBotSquad</a> capture <a href="https://scoreboard.meepwn.team/task#" onclick="open_task(15,10)">White Snow, Black Shadow</a></p>
+                    
+                        <p><em>01:55AM 16/07/18</em> - <a href="https://scoreboard.meepwn.team/task/976">ACME</a> capture <a href="https://scoreboard.meepwn.team/task#" onclick="open_task(28,1)">Feedback</a></p>
+                    
+                        <p><em>01:55AM 16/07/18</em> - <a href="https://scoreboard.meepwn.team/task/460">sonexteen</a> capture <a href="https://scoreboard.meepwn.team/task#" onclick="open_task(28,1)">Feedback</a></p>
+                    
+                        <p><em>01:54AM 16/07/18</em> - <a href="https://scoreboard.meepwn.team/task/287">du0n9</a> capture <a href="https://scoreboard.meepwn.team/task#" onclick="open_task(28,1)">Feedback</a></p>
+                    
+                        <p><em>01:52AM 16/07/18</em> - <a href="https://scoreboard.meepwn.team/task/234">Bushwhackers</a> capture <a href="https://scoreboard.meepwn.team/task#" onclick="open_task(21,10)">ezchallz</a></p>
+                    
+                        <p><em>01:52AM 16/07/18</em> - <a href="https://scoreboard.meepwn.team/task/772">GS2W</a> capture <a href="https://scoreboard.meepwn.team/task#" onclick="open_task(28,1)">Feedback</a></p>
+                    
+                        <p><em>01:51AM 16/07/18</em> - <a href="https://scoreboard.meepwn.team/task/738">yeeb0iz</a> capture <a href="https://scoreboard.meepwn.team/task#" onclick="open_task(18,10)">bazik</a></p>
+                    
+                        <p><em>01:48AM 16/07/18</em> - <a href="https://scoreboard.meepwn.team/task/531">HackXore</a> capture <a href="https://scoreboard.meepwn.team/task#" onclick="open_task(19,10)">esor</a></p>
+                    
+                        <p><em>01:44AM 16/07/18</em> - <a href="https://scoreboard.meepwn.team/task/585">0x34044</a> capture <a href="https://scoreboard.meepwn.team/task#" onclick="open_task(18,10)">bazik</a></p>
+                    
+                        <p><em>01:44AM 16/07/18</em> - <a href="https://scoreboard.meepwn.team/task/977">Pwnacea</a> capture <a href="https://scoreboard.meepwn.team/task#" onclick="open_task(19,10)">esor</a></p>
+                    
+                        <p><em>01:43AM 16/07/18</em> - <a href="https://scoreboard.meepwn.team/task/682">0ops</a> capture <a href="https://scoreboard.meepwn.team/task#" onclick="open_task(17,10)">Still old school</a></p>
+                    
+                        <p><em>01:36AM 16/07/18</em> - <a href="https://scoreboard.meepwn.team/task/199">huyvinhptit</a> capture <a href="https://scoreboard.meepwn.team/task#" onclick="open_task(28,1)">Feedback</a></p>
+                    
+                        <p><em>01:36AM 16/07/18</em> - <a href="https://scoreboard.meepwn.team/task/754">DuckDuckNo</a> capture <a href="https://scoreboard.meepwn.team/task#" onclick="open_task(13,10)">OmegaSector</a></p>
+                    
+                        <p><em>01:35AM 16/07/18</em> - <a href="https://scoreboard.meepwn.team/task/151">BisonSquad</a> capture <a href="https://scoreboard.meepwn.team/task#" onclick="open_task(28,1)">Feedback</a></p>
+                    
+                        <p><em>01:35AM 16/07/18</em> - <a href="https://scoreboard.meepwn.team/task/500">B3bieSec</a> capture <a href="https://scoreboard.meepwn.team/task#" onclick="open_task(28,1)">Feedback</a></p>
+                    
+                        <p><em>01:30AM 16/07/18</em> - <a href="https://scoreboard.meepwn.team/task/498">OpenToAll</a> capture <a href="https://scoreboard.meepwn.team/task#" onclick="open_task(10,10)">Mapl Story</a></p>
+                    
+                        <p><em>01:29AM 16/07/18</em> - <a href="https://scoreboard.meepwn.team/task/1014">oOoO0oO0</a> capture <a href="https://scoreboard.meepwn.team/task#" onclick="open_task(21,10)">ezchallz</a></p>
+                    
+                        <p><em>01:28AM 16/07/18</em> - <a href="https://scoreboard.meepwn.team/task/931">GNU-E-Ducks</a> capture <a href="https://scoreboard.meepwn.team/task#" onclick="open_task(28,1)">Feedback</a></p>
+                    
+                        <p><em>01:25AM 16/07/18</em> - <a href="https://scoreboard.meepwn.team/task/1071">zionspike</a> capture <a href="https://scoreboard.meepwn.team/task#" onclick="open_task(28,1)">Feedback</a></p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<audio id="dota">
+    
+        <source src="/static/audio/dota2/0.wav">
+    
+</audio>
+<script type="text/javascript">
+var show = -1;
+function open_task(taskid, level) {
+    $("#task"+show).hide();
+    $("#task"+taskid).show();
+    $("#task"+taskid).find("legend").addClass("level"+level);
+    show = taskid;
+    $('html,body').scrollTop(0);
+    $("#taskdesc").focus();
+}
+if ($('div.alert-success').length > 0){
+    //$('#dota')[0].play();
+}
+</script>
+
+        </div>
+
+        
+<!--         <footer class="modal-footer">
+            <center>
+		    CTF.MEEPWN.TEAM
+            </center>
+        </footer> -->
+<link href="./MEEPWN CTF 2018 - SCOREBOARD_files/css(1)" rel="stylesheet">
+<link href="./MEEPWN CTF 2018 - SCOREBOARD_files/css(2)" rel="stylesheet">
+        <div align="center" style="font-family: &#39;Libre Barcode 128 Text&#39;, cursive; font-size: 2.5em;color: rgba(255, 255, 255, 0.5);">CTF.MEEPWN.TEAM</div>
+        
+        <script>
+            $(function () {
+              $('[data-toggle="tooltip"]').tooltip()
+            })
+            function hide_alert(){
+                $('.alert').each(function() {
+                    $(this).fadeOut('slow');
+                });
+            }
+            setTimeout(hide_alert,10000);
+        </script>
+    
+</body></html>

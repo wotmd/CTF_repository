@@ -1,0 +1,236 @@
+
+File pos       Mem pos          ID   Text
+========       =======          ==   ====
+
+000000001130   000000001130      0   RXACT
+000000001420   000000001420      0   Domains
+0000000014A8   0000000014A8      0   Builtin
+000000001768   000000001768      0   Users
+0000000017E8   0000000017E8      0   Names
+000000001870   000000001870      0   Groups
+0000000018F8   0000000018F8      0   Names
+000000001978   000000001978      0   Aliases
+000000001A00   000000001A00      0   Names
+000000001A88   000000001A88      0   Members
+000000001B10   000000001B10      0   Backup Operators
+000000001B98   000000001B98      0   00000227
+000000001C38   000000001C38      0   Administrators
+000000001CC8   000000001CC8      0   00000220
+000000001EE8   000000001EE8      0   Remote Desktop Users
+000000001F50   000000001F50      0   0000022B
+000000001FB8   000000001FB8      0   00000221
+000000002078   000000002078      0   ForcePasswordReset
+0000000020F8   0000000020F8      0   Guests
+000000002168   000000002168      0   Distributed COM Usersser
+000000002200   000000002200      0   Hyper-V Administrators
+000000002300   000000002300      0   Remote Management Users
+000000002380   000000002380      0   00000222
+000000002678   000000002678      0   Replicator
+0000000026E8   0000000026E8      0   System Managed Accounts Groupd A
+000000002780   000000002780      0   00000245
+0000000029D0   0000000029D0      0   Account
+000000002B78   000000002B78      0   Administratormen
+000000002C00   000000002C00      0   00000244
+000000002C80   000000002C80      0   00000004
+000000002CF0   000000002CF0      0   Users
+000000002D68   000000002D68      0   Names
+000000002DF0   000000002DF0      0   Groups
+000000002E78   000000002E78      0   Names
+000000002EF8   000000002EF8      0   Aliases
+000000002F80   000000002F80      0   Names
+000000003008   000000003008      0   Members
+000000003110   000000003110      0   00000201
+000000003238   000000003238      0   000003E8
+000000003258   000000003258      0   ForcePasswordResets
+0000000032C0   0000000032C0      0   Guest
+0000000032CC   0000000032CC      0   nistrator
+000000003350   000000003350      0   000001F4
+0000000036C0   0000000036C0      0   Guest
+000000003748   000000003748      0   000001F5(
+000000003860   000000003860      0   DefaultAccountni
+000000003910   000000003910      0   0000022E
+000000003988   000000003988      0   DefaultAccountg 
+000000003A08   000000003A08      0   0000022F
+000000003A45   000000003A45      0   ji	(=
+000000003AA4   000000003AA4      0   ultAccount
+000000003B28   000000003B28      0   000001F7
+000000003C78   000000003C78      0   LastSkuUpgrade
+000000003CD8   000000003CD8      0   000001F4
+000000003CE4   000000003CE4      0   COM Users
+000000003F60   000000003F60      0   00000232
+000000003FB8   000000003FB8      0   000001F5
+000000004070   000000004070      0   Users
+0000000040F8   0000000040F8      0   Network Configuration Operators
+000000004180   000000004180      0   Power Users
+
+File pos       Mem pos          ID   Text
+========       =======          ==   ====
+
+0000000041F8   0000000041F8      0   Performance Monitor Users
+000000004598   000000004598      0   00000238
+0000000045F0   0000000045F0      0   S-1-5
+000000004B28   000000004B28      0   00000011
+000000004B48   000000004B48      0   ServerDomainUpdates
+000000004BB0   000000004BB0      0   Event Log Readers
+000000004C18   000000004C18      0   0000023D
+000000004C90   000000004C90      0   Hyper-V Administrators
+000000004D20   000000004D20      0   0000000B
+000000004D78   000000004D78      0   S-1-5-21-1124836570-4159233739-1442804048
+000000005170   000000005170      0   00000242
+000000005200   000000005200      0   00000243
+0000000052F0   0000000052F0      0   000001F7
+00000000532D   00000000532D      0   U+/@<
+0000000053D8   0000000053D8      0   00000228
+000000005730   000000005730      0   Performance Log Users Op
+0000000057A0   0000000057A0      0   0000022C
+0000000057F8   0000000057F8      0   IIS_IUSRSrs
+000000005858   000000005858      0   00000223
+0000000058B0   0000000058B0      0   Cryptographic Operators
+000000006470   000000006470      0   00000239(
+0000000067A0   0000000067A0      0   Access Control Assistance Operators
+000000006FD0   000000006FD0      0   000003E8(
+000000000030   000000000030      0   \SystemRoot\System32\Config\SAM
+000000001E38   000000001E38      0   ReplicatorSupports file replication in a domain
+0000000035C0   0000000035C0      0   Guest
+000000003E40   000000003E40      0   Performance Monitor Users
+000000004758   000000004758      0   Performance Log Users
+000000004784   000000004784      0   Members of this group may schedule logging of performance counters, enable trace providers, and collect event traces both locally and via remote access to this computer
+0000000049F8   0000000049F8      0   Distributed COM Users
+000000004A24   000000004A24      0   Members are allowed to launch, activate and use Distributed COM objects on this machine.
+000000004ED0   000000004ED0      0   IIS_IUSRS
+000000004EE4   000000004EE4      0   Built-in group used by Internet Information Services.
+000000005080   000000005080      0   Event Log Readers
+0000000050A4   0000000050A4      0   Members of this group can read event logs from local machine
+0000000053E4   0000000053E4      0   Users
+000000005510   000000005510      0   Remote Management Users
+000000005540   000000005540      0   Members of this group can access WMI resources over management protocols (such as WS-Management via the Windows Remote Management service). This applies only to WMI namespaces that grant access to the user.
+000000005EF0   000000005EF0      0   Backup OperatorsBackup Operators can override security restrictions for the sole purpose of backing up or restoring files
+000000006140   000000006140      0   Remote Desktop UsersMembers in this group are granted the right to logon remotely
+000000006308   000000006308      0   Network Configuration Operators
+000000006678   000000006678      0   Power Users
+000000006690   000000006690      0   Power Users are included for backwards compatibility and possess limited administrative powers
+000000006870   000000006870      0   Hyper-V Administratorss
+0000000069C0   0000000069C0      0   Cryptographic Operators
+0000000069F0   0000000069F0      0   Members are authorized to perform cryptographic operations.
+000000006D20   000000006D20      0   Hyper-V AdministratorsMembers of this group have complete and unrestricted access to all features of Hyper-V.
+000000007140   000000007140      0   Access Control Assistance Operators
+000000007188   000000007188      0   Members of this group can remotely query authorization attributes and permissions for resources on this computer.
+0000000075A8   0000000075A8      0   Users
+000000001130   000000001130      0   RXACT
+000000001420   000000001420      0   Domains
+0000000014A8   0000000014A8      0   Builtin
+000000001768   000000001768      0   Users
+0000000017E8   0000000017E8      0   Names
+000000001870   000000001870      0   Groups
+0000000018F8   0000000018F8      0   Names
+000000001978   000000001978      0   Aliases
+000000001A00   000000001A00      0   Names
+000000001A88   000000001A88      0   Members
+
+File pos       Mem pos          ID   Text
+========       =======          ==   ====
+
+000000001B10   000000001B10      0   Backup Operators
+000000001B98   000000001B98      0   00000227
+000000001C38   000000001C38      0   Administrators
+000000001CC8   000000001CC8      0   00000220
+000000001EE8   000000001EE8      0   Remote Desktop Users
+000000001F50   000000001F50      0   0000022B
+000000001FB8   000000001FB8      0   00000221
+000000002078   000000002078      0   ForcePasswordReset
+0000000020F8   0000000020F8      0   Guests
+000000002168   000000002168      0   Distributed COM Usersser
+000000002200   000000002200      0   Hyper-V Administrators
+000000002300   000000002300      0   Remote Management Users
+000000002380   000000002380      0   00000222
+000000002678   000000002678      0   Replicator
+0000000026E8   0000000026E8      0   System Managed Accounts Groupd A
+000000002780   000000002780      0   00000245
+0000000029D0   0000000029D0      0   Account
+000000002B78   000000002B78      0   Administratormen
+000000002C00   000000002C00      0   00000244
+000000002C80   000000002C80      0   00000004
+000000002CF0   000000002CF0      0   Users
+000000002D68   000000002D68      0   Names
+000000002DF0   000000002DF0      0   Groups
+000000002E78   000000002E78      0   Names
+000000002EF8   000000002EF8      0   Aliases
+000000002F80   000000002F80      0   Names
+000000003008   000000003008      0   Members
+000000003110   000000003110      0   00000201
+000000003238   000000003238      0   000003E8
+000000003258   000000003258      0   ForcePasswordResets
+0000000032C0   0000000032C0      0   Guest
+0000000032CC   0000000032CC      0   nistrator
+000000003350   000000003350      0   000001F4
+0000000036C0   0000000036C0      0   Guest
+000000003748   000000003748      0   000001F5(
+000000003860   000000003860      0   DefaultAccountni
+000000003910   000000003910      0   0000022E
+000000003988   000000003988      0   DefaultAccountg 
+000000003A08   000000003A08      0   0000022F
+000000003A45   000000003A45      0   ji	(=
+000000003AA4   000000003AA4      0   ultAccount
+000000003B28   000000003B28      0   000001F7
+000000003C78   000000003C78      0   LastSkuUpgrade
+000000003CD8   000000003CD8      0   000001F4
+000000003CE4   000000003CE4      0   COM Users
+000000003F60   000000003F60      0   00000232
+000000003FB8   000000003FB8      0   000001F5
+000000004070   000000004070      0   Users
+0000000040F8   0000000040F8      0   Network Configuration Operators
+000000004180   000000004180      0   Power Users
+0000000041F8   0000000041F8      0   Performance Monitor Users
+000000004598   000000004598      0   00000238
+0000000045F0   0000000045F0      0   S-1-5
+000000004B28   000000004B28      0   00000011
+000000004B48   000000004B48      0   ServerDomainUpdates
+000000004BB0   000000004BB0      0   Event Log Readers
+000000004C18   000000004C18      0   0000023D
+000000004C90   000000004C90      0   Hyper-V Administrators
+000000004D20   000000004D20      0   0000000B
+000000004D78   000000004D78      0   S-1-5-21-1124836570-4159233739-1442804048
+
+File pos       Mem pos          ID   Text
+========       =======          ==   ====
+
+000000005170   000000005170      0   00000242
+000000005200   000000005200      0   00000243
+0000000052F0   0000000052F0      0   000001F7
+00000000532D   00000000532D      0   U+/@<
+0000000053D8   0000000053D8      0   00000228
+000000005730   000000005730      0   Performance Log Users Op
+0000000057A0   0000000057A0      0   0000022C
+0000000057F8   0000000057F8      0   IIS_IUSRSrs
+000000005858   000000005858      0   00000223
+0000000058B0   0000000058B0      0   Cryptographic Operators
+000000006470   000000006470      0   00000239(
+0000000067A0   0000000067A0      0   Access Control Assistance Operators
+000000006FD0   000000006FD0      0   000003E8(
+000000000030   000000000030      0   \SystemRoot\System32\Config\SAM
+000000001E38   000000001E38      0   ReplicatorSupports file replication in a domain
+0000000035C0   0000000035C0      0   Guest
+000000003E40   000000003E40      0   Performance Monitor Users
+000000004758   000000004758      0   Performance Log Users
+000000004784   000000004784      0   Members of this group may schedule logging of performance counters, enable trace providers, and collect event traces both locally and via remote access to this computer
+0000000049F8   0000000049F8      0   Distributed COM Users
+000000004A24   000000004A24      0   Members are allowed to launch, activate and use Distributed COM objects on this machine.
+000000004ED0   000000004ED0      0   IIS_IUSRS
+000000004EE4   000000004EE4      0   Built-in group used by Internet Information Services.
+000000005080   000000005080      0   Event Log Readers
+0000000050A4   0000000050A4      0   Members of this group can read event logs from local machine
+0000000053E4   0000000053E4      0   Users
+000000005510   000000005510      0   Remote Management Users
+000000005540   000000005540      0   Members of this group can access WMI resources over management protocols (such as WS-Management via the Windows Remote Management service). This applies only to WMI namespaces that grant access to the user.
+000000005EF0   000000005EF0      0   Backup OperatorsBackup Operators can override security restrictions for the sole purpose of backing up or restoring files
+000000006140   000000006140      0   Remote Desktop UsersMembers in this group are granted the right to logon remotely
+000000006308   000000006308      0   Network Configuration Operators
+000000006678   000000006678      0   Power Users
+000000006690   000000006690      0   Power Users are included for backwards compatibility and possess limited administrative powers
+000000006870   000000006870      0   Hyper-V Administratorss
+0000000069C0   0000000069C0      0   Cryptographic Operators
+0000000069F0   0000000069F0      0   Members are authorized to perform cryptographic operations.
+000000006D20   000000006D20      0   Hyper-V AdministratorsMembers of this group have complete and unrestricted access to all features of Hyper-V.
+000000007140   000000007140      0   Access Control Assistance Operators
+000000007188   000000007188      0   Members of this group can remotely query authorization attributes and permissions for resources on this computer.
+0000000075A8   0000000075A8      0   Users

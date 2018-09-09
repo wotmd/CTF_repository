@@ -1,0 +1,94 @@
+h1 {
+  display: inline-block;
+}
+
+header .logo {
+  line-height: 100px;
+  height: 100px;
+  
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 740px;
+  margin: 40px auto;
+  
+  text-align: justify;
+}
+.cr2 {
+    height: 50px;
+    position:absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+  
+}
+
+header .nav {
+  display: inline-block;
+  list-style: none;
+  height: 40px;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li:not(:last-child) {
+  margin-right: 8px;
+}
+
+.nav li a {
+  color: white;
+  text-decoration: none;
+  background-color: hsl(211, 49%, 43%);
+  
+  padding: 5px;
+}
+
+.nav li a:hover {
+  background-color: hsl(211, 49%, 63%);
+}
+
+.notification {
+  position: absolute;
+  
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 70px;
+  
+  line-height: 70px;
+  text-align: center;
+  
+  font-size: 25px;
+  margin: 0px;
+  
+  cursor: pointer;
+}
+
+.notification.flash-message {
+  background-color: hsl(211, 49%, 73%);
+  border-bottom: 1px solid hsl(211, 49%, 53%);
+  
+  color: white;
+}
+
+.notification.flash-success {
+  background-color: hsl(128, 49%, 73%);
+  border-bottom: 1px solid hsl(128, 49%, 53%);
+  
+  color: white;
+}
+
+.notification.flash-warning {
+  background-color: hsl(40, 49%, 73%);
+  border-bottom: 1px solid hsl(40, 49%, 53%);
+  
+  color: white;
+}
+
+.notification.flash-error {
+  background-color: hsl(0, 49%, 73%);
+  border-bottom: 1px solid hsl(0, 49%, 53%);
+ 

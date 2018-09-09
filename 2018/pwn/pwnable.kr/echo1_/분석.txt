@@ -1,0 +1,74 @@
+myria@argos-edu:~/pwnable.kr/echo1$ 
+myria@argos-edu:~/pwnable.kr/echo1$ ./echo1 
+hey, what's your name? : AAAA
+
+- select echo type -
+- 1. : BOF echo
+- 2. : FSB echo
+- 3. : UAF echo
+- 4. : exit
+> 4
+Are you sure you want to exit? (y/n)^[[A
+
+- select echo type -
+- 1. : BOF echo
+- 2. : FSB echo
+- 3. : UAF echo
+- 4. : exit
+> invalid menu
+
+- select echo type -
+- 1. : BOF echo
+- 2. : FSB echo
+- 3. : UAF echo
+- 4. : exit
+> invalid menu
+
+- select echo type -
+- 1. : BOF echo
+- 2. : FSB echo
+- 3. : UAF echo
+- 4. : exit
+> 4
+*** Error in `./echo1': double free or corruption (fasttop): 0x0000000000c03010 ***
+======= Backtrace: =========
+/lib/x86_64-linux-gnu/libc.so.6(+0x777e5)[0x7f10c82997e5]
+/lib/x86_64-linux-gnu/libc.so.6(+0x8037a)[0x7f10c82a237a]
+/lib/x86_64-linux-gnu/libc.so.6(cfree+0x4c)[0x7f10c82a653c]
+./echo1[0x4008af]
+./echo1[0x400a25]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf0)[0x7f10c8242830]
+./echo1[0x4006d9]
+======= Memory map: ========
+00400000-00401000 r-xp 00000000 08:01 58068266                           /home/myria/pwnable.kr/echo1/echo1
+00601000-00602000 r-xp 00001000 08:01 58068266                           /home/myria/pwnable.kr/echo1/echo1
+00602000-00603000 rwxp 00002000 08:01 58068266                           /home/myria/pwnable.kr/echo1/echo1
+00c03000-00c24000 rwxp 00000000 00:00 0                                  [heap]
+7f10c4000000-7f10c4021000 rwxp 00000000 00:00 0 
+7f10c4021000-7f10c8000000 ---p 00000000 00:00 0 
+7f10c800c000-7f10c8022000 r-xp 00000000 08:01 58724824                   /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f10c8022000-7f10c8221000 ---p 00016000 08:01 58724824                   /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f10c8221000-7f10c8222000 rwxp 00015000 08:01 58724824                   /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f10c8222000-7f10c83e2000 r-xp 00000000 08:01 58720480                   /lib/x86_64-linux-gnu/libc-2.23.so
+7f10c83e2000-7f10c85e2000 ---p 001c0000 08:01 58720480                   /lib/x86_64-linux-gnu/libc-2.23.so
+7f10c85e2000-7f10c85e6000 r-xp 001c0000 08:01 58720480                   /lib/x86_64-linux-gnu/libc-2.23.so
+7f10c85e6000-7f10c85e8000 rwxp 001c4000 08:01 58720480                   /lib/x86_64-linux-gnu/libc-2.23.so
+7f10c85e8000-7f10c85ec000 rwxp 00000000 00:00 0 
+7f10c85ec000-7f10c8612000 r-xp 00000000 08:01 58720478                   /lib/x86_64-linux-gnu/ld-2.23.so
+7f10c87f2000-7f10c87f5000 rwxp 00000000 00:00 0 
+7f10c8810000-7f10c8811000 rwxp 00000000 00:00 0 
+7f10c8811000-7f10c8812000 r-xp 00025000 08:01 58720478                   /lib/x86_64-linux-gnu/ld-2.23.so
+7f10c8812000-7f10c8813000 rwxp 00026000 08:01 58720478                   /lib/x86_64-linux-gnu/ld-2.23.so
+7f10c8813000-7f10c8814000 rwxp 00000000 00:00 0 
+7ffcb2aa8000-7ffcb2ac9000 rwxp 00000000 00:00 0                          [stack]
+7ffcb2b64000-7ffcb2b67000 r--p 00000000 00:00 0                          [vvar]
+7ffcb2b67000-7ffcb2b69000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+Aborted (core dumped)
+
+
+
+
+
+
+¹¹Áö

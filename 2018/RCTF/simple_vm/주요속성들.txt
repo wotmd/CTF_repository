@@ -1,0 +1,15 @@
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x00007ffff7a819b0 in putchar at putchar.c:26
+	breakpoint already hit 11 times
+4       breakpoint     keep y   0x0000000000400967 
+	breakpoint already hit 11 times
+5       breakpoint     keep y   0x00000000004008b0 
+	breakpoint already hit 80 times
+6       breakpoint     keep y   0x00000000004008b5 
+	breakpoint already hit 80 times
+7       hw watchpoint  keep y                      *0x6010A4
+	breakpoint already hit 22 times
+8       hw watchpoint  keep y                      *0x6010A0
+	breakpoint already hit 19 times
+
+x/396x *(0x601098)

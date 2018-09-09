@@ -1,0 +1,996 @@
+Thx very much.
+[17:28] <juno> asdf
+[17:28] == n000bb [4ea74d5e@gateway/web/freenode/ip.78.167.77.94] has joined #meepwnctf2018
+[17:30] == xrekkusu [~xrekkusu@2409:11:de20:500:e03b:dc5e:e559:4a37] has joined #meepwnctf2018
+[17:35] == kazkiti [6f6c1350@gateway/web/freenode/ip.111.108.19.80] has joined #meepwnctf2018
+[17:35] <jinmo123> aww mosquitto...
+[17:36] <juno> haha
+[17:36] <juno> gimotti jinmo
+[17:36] <jinmo123> ruined my sleeping
+[17:36] <juno> cheer up
+[17:36] <juno> bro
+[17:47] == t1t0 [5fa04892@gateway/web/freenode/ip.95.160.72.146] has joined #meepwnctf2018
+[17:49] <adm1nkyj> jinmo died
+[17:49] <adm1nkyj> juno died
+[17:51] <juno> hey admins `3. We will partially support top 05 teams for their travel expenses and accommodation.` does it mean Meepwn fully support 5 teams? or partially support 5/(finalteams)?
+[17:56] <@tsug0d> partially
+[17:57] <juno> OK!
+[17:57] == saturday [~wednesday@171.241.185.242] has quit [Quit: Leaving]
+[17:57] == Pyhscript [~benjamin@unaffiliated/pyhscript] has joined #meepwnctf2018
+[17:59] == juno [dc785b2c@gateway/web/freenode/ip.220.120.91.44] has quit [Quit: Page closed]
+[18:03] == jinmo123 [b761d2ac@gateway/web/freenode/ip.183.97.210.172] has quit [Quit: Page closed]
+[18:05] == xrekkusu [~xrekkusu@2409:11:de20:500:e03b:dc5e:e559:4a37] has quit [Remote host closed the connection]
+[18:06] <noobsagol> all tasks are out right?
+[18:08] == Beched [b23ee2f6@gateway/web/freenode/ip.178.62.226.246] has joined #meepwnctf2018
+[18:09] == kc [43d8c0d7@gateway/web/freenode/ip.67.216.192.215] has joined #meepwnctf2018
+[18:10] == kc has changed nick to Guest90160
+[18:10] <Guest90160> something wrong with OmegaSector
+[18:11] == add_ [0ea9b491@gateway/web/freenode/ip.14.169.180.145] has joined #meepwnctf2018
+[18:12] <Guest90160> OmegaSector
+[18:12] <Guest90160> any one?
+[18:12] <@ducnt> pm tsug0d dude. He's admin of this chall
+[18:14] <t1t0> hi, any admin of baby sandbox?
+[18:14] == bmtd [2a75e671@gateway/web/freenode/ip.42.117.230.113] has quit [Ping timeout: 252 seconds]
+[18:16] <Shalom[p4]> Guest90160 you might be right, because my solver doesn't work anymore ;)
+[18:18] <Guest90160> please help
+[18:18] <Guest90160> OmegaSector
+[18:19] == bmtd [2a75e671@gateway/web/freenode/ip.42.117.230.113] has joined #meepwnctf2018
+[18:23] == Guest90160 [43d8c0d7@gateway/web/freenode/ip.67.216.192.215] has quit [Ping timeout: 252 seconds]
+[18:23] == adm1nkyj has changed nick to adm1nkyj_LeaveCa
+[18:25] == n000bb [4ea74d5e@gateway/web/freenode/ip.78.167.77.94] has quit [Ping timeout: 252 seconds]
+[18:25] == kazkiti [6f6c1350@gateway/web/freenode/ip.111.108.19.80] has quit [Quit: Page closed]
+[18:29] == p1kosu [7afcd855@gateway/web/freenode/ip.122.252.216.85] has joined #meepwnctf2018
+[18:32] == xrekkusu [~xrekkusu@2409:11:de20:500:e03b:dc5e:e559:4a37] has joined #meepwnctf2018
+[18:35] == LogicalGeezer [5004b8c8@gateway/web/freenode/ip.80.4.184.200] has quit [Ping timeout: 252 seconds]
+[18:37] == llmp [29fa8c0f@gateway/web/freenode/ip.41.250.140.15] has joined #meepwnctf2018
+[18:41] == kkkkkk [43d8c0d7@gateway/web/freenode/ip.67.216.192.215] has joined #meepwnctf2018
+[18:42] <kkkkkk> hello,i want to report:"OmegaSector was something wrong"
+[18:42] == littlewho_ [567d1a80@gateway/web/freenode/ip.86.125.26.128] has quit [Ping timeout: 252 seconds]
+[18:43] <@tsug0d> hi
+[18:43] <@tsug0d> pm me
+[18:43] <@tsug0d> im the author
+[18:45] <kkkkkk> please check OmegaSector, make sure
+[18:45] == saturday [~wednesday@171.241.185.242] has joined #meepwnctf2018
+[18:46] == Luna [25a85947@gateway/web/freenode/ip.37.168.89.71] has joined #meepwnctf2018
+[18:50] == h4ck0cr1t1cs [9d21c92f@gateway/web/freenode/ip.157.33.201.47] has joined #meepwnctf2018
+[18:57] == ljc [~ljc@unaffiliated/ljc] has joined #meepwnctf2018
+[19:01] == ljc [~ljc@unaffiliated/ljc] has quit [Client Quit]
+[19:02] == st98 [~st98@49.129.113.81] has joined #meepwnctf2018
+[19:02] <@ducnt> Hi everyone, we've just opened a new challenge `Feedback`. We hope you enjoy the game. Happy hacking. Thx very much :D.
+[19:03] == dekl [59470306@gateway/web/freenode/ip.89.71.3.6] has quit [Ping timeout: 252 seconds]
+[19:04] <adm1nkyj_LeaveCa> ...new challenge really hard..
+[19:04] <@ducnt> :P
+[19:04] <@tsug0d> just tick hate to pycalx
+[19:05] <@tsug0d> and submit
+[19:10] == chakerbh [~chaker@41.225.171.53] has joined #meepwnctf2018
+[19:12] == h4ck0cr1t1cs [9d21c92f@gateway/web/freenode/ip.157.33.201.47] has quit [Quit: Page closed]
+[19:13] == kkkkkk [43d8c0d7@gateway/web/freenode/ip.67.216.192.215] has quit [Quit: Page closed]
+[19:13] <Shalom[p4]> I sometimes wonder how is that people organize a CTF and yet can't set the session length on the scoreboard for at least 48h
+[19:15] <Luna> anyone for OmegaSector?
+[19:15] <Luna> we were able to crack the URI part on our machine
+[19:15] <Luna> but not on the server
+[19:15] == chaker_ [~chaker@41.225.171.53] has quit [Quit: Ex-Chat]
+[19:16] <Luna> wait nevermind
+[19:22] <Beched> how many more challs?
+[19:22] == saturday [~wednesday@171.241.185.242] has quit [Quit: Leaving]
+[19:24] <x000505AD> Are all the challs released?
+[19:27] <add_> The last challenge: WC final match will be released soom :D
+[19:29] == g3ol4d0 [uid175357@elt/member/g3ol4d0] has joined #meepwnctf2018
+[19:36] <t1t0> Shalom[p4]++
+[19:40] <Shalom[p4]> t1t0 lately it's very common, and I don't know why
+[19:40] <Shalom[p4]> it's not that hard :D
+[19:42] == zcat [abeae763@gateway/web/freenode/ip.171.234.231.99] has joined #meepwnctf2018
+[19:42] == zcat has changed nick to Guest31105
+[19:42] == Guest31105 [abeae763@gateway/web/freenode/ip.171.234.231.99] has left #meepwnctf2018 []
+[19:43] == mathboy7_LeaveCa [afc1cd36@gateway/web/freenode/ip.175.193.205.54] has quit [Quit: Page closed]
+[19:43] == dsp25no [~textual@nat3.cs.msu.ru] has joined #meepwnctf2018
+[19:48] == dsp25no [~textual@nat3.cs.msu.ru] has quit [Ping timeout: 240 seconds]
+[19:50] == n0ob [0ef39bba@gateway/web/freenode/ip.14.243.155.186] has joined #meepwnctf2018
+[19:51] == ljc [~ljc@unaffiliated/ljc] has joined #meepwnctf2018
+[19:55] <n0ob> hi guys i'm a newbie, i founded 'message.pdf' in evidence mics challenge............ but i can't get it, pls help me
+[19:58] <Shalom[p4]> n0ob wait for the end and then read writeups
+[19:59] == qwerty123 [2966f6ce@gateway/web/freenode/ip.41.102.246.206] has joined #meepwnctf2018
+[19:59] <qwerty123> anu hints on one shot ??
+[20:00] <qwerty123> it has been 24h of trying
+[20:01] <myria> lol
+[20:01] <qwerty123> can't do anything without stdin and stdout
+[20:01] <myria> one shot! me too.. 24h of trying
+[20:02] == baek7497 [uid305034@gateway/web/irccloud.com/x-ahppeugncoolxzsc] has joined #meepwnctf2018
+[20:02] <qwerty123> admins ??
+[20:02] == qwerty123 [2966f6ce@gateway/web/freenode/ip.41.102.246.206]
+[20:02] ==  realname : 41.102.246.206 - http://webchat.freenode.net
+[20:02] ==  channels : #meepwnctf2018
+[20:02] ==  server   : herbert.freenode.net [Webchat]
+[20:02] ==  idle     : 0 days 0 hours 0 minutes 11 seconds [connected: Sun Jul 15 19:59:03 2018]
+[20:02] == End of WHOIS
+[20:02] <@tsug0d> admin will never tell you how to solve challenge....
+[20:03] <qwerty123> I know how to solve a challenge, but I am missing something
+[20:03] == jason85 [~jason@dslb-178-003-214-067.178.003.pools.vodafone-ip.de] has joined #meepwnctf2018
+[20:04] <jason85> I have a question about PyCalx. Is the flag only ascii characters?
+[20:05] <@tsug0d> printable characters
+[20:05] <jason85> but single byte?
+[20:07] == hama [~hama@2001:268:c142:6f4f:9103:16f1:7014:62bb] has quit [Remote host closed the connection]
+[20:10] == terjanq [531e8811@gateway/web/cgi-irc/kiwiirc.com/ip.83.30.136.17] has joined #meepwnctf2018
+[20:10] <terjanq> does everyone gets `No! Please don't bruteforce` or is this just us?
+[20:12] == n0ob [0ef39bba@gateway/web/freenode/ip.14.243.155.186] has left #meepwnctf2018 []
+[20:12] <qwerty123> the note on PyCalx is wrong
+[20:13] <qwerty123> every char is printable
+[20:13] <qwerty123> they are true ascii chars
+[20:13] == add_ [0ea9b491@gateway/web/freenode/ip.14.169.180.145] has quit [Ping timeout: 252 seconds]
+[20:13] <jason85> thanks
+[20:14] <qwerty123> I dont know why they mention it, it really redhearing, it cost me alot time
+[20:15] == qwerty123_ [b6133012@gateway/web/freenode/ip.182.19.48.18] has joined #meepwnctf2018
+[20:15] * Pyhscript about to flip table due to omegasector
+[20:15] <Pyhscript> so close, yet so far
+[20:21] == vim [89616b1e@gateway/web/freenode/ip.137.97.107.30] has joined #meepwnctf2018
+[20:21] == vim has changed nick to Guest39355
+[20:22] == Guest39355 [89616b1e@gateway/web/freenode/ip.137.97.107.30] has quit [Client Quit]
+[20:22] == wooeong2 [afcb51c1@gateway/web/freenode/ip.175.203.81.193] has quit [Quit: Page closed]
+[20:23] == qwerty123_ [b6133012@gateway/web/freenode/ip.182.19.48.18] has quit [Ping timeout: 252 seconds]
+[20:23] <ljc> qwerty123: i'm also trying with oneshot lol
+[20:23] == jazzyb [6037e468@gateway/web/freenode/ip.96.55.228.104] has joined #meepwnctf2018
+[20:23] <jazzyb> Any admin online
+[20:24] <jazzyb> I just solved the Smart Contract one but I don't have access to my team email since the guy who owns it is sleeping
+[20:24] <Shalom[p4]> :D
+[20:26] == asdasd [89616b1e@gateway/web/freenode/ip.137.97.107.30] has joined #meepwnctf2018
+[20:27] <jazzyb> ADMINSSSSSSSSS
+[20:28] <@tsug0d> @jazzyb: pls wait
+[20:30] <noobsagol> the server just crashed
+[20:30] <noobsagol> oh wait it's back
+[20:31] <Ariana> after solving some chals im mentally preparing to see a one liner writeup mdr
+[20:31] == ffsake [~dmby@155.143.171.194] has joined #meepwnctf2018
+[20:32] == asdasd [89616b1e@gateway/web/freenode/ip.137.97.107.30] has quit [Quit: Page closed]
+[20:32] <Ariana> For silly note are we supposed to leak the source or is it completely blind
+[20:34] == fsociety [6725c949@gateway/web/freenode/ip.103.37.201.73] has joined #meepwnctf2018
+[20:34] == dmby [~dmby@155.143.171.194] has quit [Ping timeout: 268 seconds]
+[20:38] == jazzyb [6037e468@gateway/web/freenode/ip.96.55.228.104] has quit [Quit: Page closed]
+[20:39] == aaaaaa [524e1e33@gateway/web/freenode/ip.82.78.30.51] has joined #meepwnctf2018
+[20:39] <aaaaaa> any admin on?
+[20:40] <@tsug0d> hi
+[20:40] == fsociety [6725c949@gateway/web/freenode/ip.103.37.201.73] has quit [Ping timeout: 252 seconds]
+[20:40] == d3coy [47ee0421@gateway/web/freenode/ip.71.238.4.33] has joined #meepwnctf2018
+[20:41] == pwner [~androirc@195.181.172.220] has joined #meepwnctf2018
+[20:42] == pwner [~androirc@195.181.172.220] has quit [Read error: Connection reset by peer]
+[20:44] == alcastronic [1f0a9679@gateway/web/freenode/ip.31.10.150.121] has joined #meepwnctf2018
+[20:45] <@ducnt> Hi everyone. We've just opened `worldcup winner` chall. Who will be the winner? This is the last chall. Enjoy everyone.
+[20:46] == aaa_ [89616ac0@gateway/web/freenode/ip.137.97.106.192] has joined #meepwnctf2018
+[20:49] <Pyhscript> ducnt: did you add points for 3rd place?
+[20:50] <terjanq> can i get an answer for my question? Are we able to submit flag to `PyCalc` if we see `No! Please do not bruteforce` ???
+[20:50] <@ducnt> We're calculating and update soon. Keep calm and hacking dude ^^.
+[20:51] <@ducnt> Hi @terjanq: the normal flag format is: MeePwnCTF{FLAGHERE}. If the flag has another format, it will be mentioned in the description.
+[20:51] <terjanq> thats not the answer to my question..................
+[20:52] <terjanq> are we banned from submiting flags?
+[20:53] == ffsake [~dmby@155.143.171.194] has quit [Ping timeout: 264 seconds]
+[20:54] <Shalom[p4]> terjanq it seems your flag is wrong
+[20:55] <Shalom[p4]> this is what the page says in such case
+[20:55] <Pyhscript> ducnt: can i pm you relating to omegasector? not asking for hints or anything like that
+[20:55] <Shalom[p4]> maybe you're submitting to the wrong PyCalc challenge?
+[20:55] <terjanq> that is what i was asking
+[20:55] <terjanq> whether it is normal message or not
+[20:55] == laflame [uid256600@gateway/web/irccloud.com/x-eybnripmgoafqwyr] has quit [Quit: Connection closed for inactivity]
+[20:55] <@ducnt> hi @Pyhscript, pm @tsug0d he's author of this chall
+[20:56] <Pyhscript> Ah ok
+[20:58] == asdasdf [~androirc@195.181.172.220] has joined #meepwnctf2018
+[20:58] <Shalom[p4]> terjanq it's a normal message, I've seen it when I made a mistake in the flag
+[20:58] <terjanq> i am missing some characters in the middle so idk whether i can guess them or keep solving ;p
+[20:58] == Hopjesvla [565b24a8@gateway/web/freenode/ip.86.91.36.168] has joined #meepwnctf2018
+[20:58] == herrera [~herrera@elt/member/herrera] has quit [Ping timeout: 240 seconds]
+[20:59] <bibi__> @terjanq see the challenge description
+[20:59] == xrekkusu [~xrekkusu@2409:11:de20:500:e03b:dc5e:e559:4a37] has quit [Remote host closed the connection]
+[20:59] <Hopjesvla> Think I've solved "White Snow, Black Shadow" but the flag does not submit, could an admin please reach out?
+[21:00] == xrekkusu [~xrekkusu@2409:11:de20:500:e03b:dc5e:e559:4a37] has joined #meepwnctf2018
+[21:01] <@tsug0d> pm me @Hopjesvla
+[21:01] == ducnt [734a5f7a@gateway/web/freenode/ip.115.74.95.122] has quit [Quit: Page closed]
+[21:02] <@tsug0d> No more challenge will be released. Have fun and enjoy the worldcup! Peace
+[21:02] == herrera [~herrera@elt/member/herrera] has joined #meepwnctf2018
+[21:04] == xrekkusu [~xrekkusu@2409:11:de20:500:e03b:dc5e:e559:4a37] has quit [Ping timeout: 265 seconds]
+[21:05] == nathan [uid284394@gateway/web/irccloud.com/x-mffmukxvwgaducci] has quit [Quit: Connection closed for inactivity]
+[21:06] <alcastronic> Hi can someone give me hint on omegasector pls?
+[21:07] == t1t0 [5fa04892@gateway/web/freenode/ip.95.160.72.146] has quit [Ping timeout: 252 seconds]
+[21:07] == Hopjesvl_ [~hopjesvla@ip565b24a8.direct-adsl.nl] has joined #meepwnctf2018
+[21:07] <Pyhscript> alcastronic: think of the stupidest thing that could work then try that
+[21:07] <Pyhscript> for real
+[21:08] == Hopjesvla [565b24a8@gateway/web/freenode/ip.86.91.36.168] has quit [Ping timeout: 252 seconds]
+[21:09] == ll3hm4nn [uid297234@gateway/web/irccloud.com/x-kbhyspyephkjfvtn] has quit [Quit: Connection closed for inactivity]
+[21:09] <Luna> I got to the omegasector
+[21:09] <Luna> in it
+[21:09] <Luna> but the hek is with the messages ;-;
+[21:10] <Pyhscript> Luna: amen
+[21:11] <Pyhscript> we all must be overthinking this
+[21:11] <Luna> I mean did y'all get to the message part?
+[21:13] <Pyhscript> well i did
+[21:14] <Pyhscript> (our team that is)
+[21:14] <Pyhscript> i keep getting pm's from people that didn't tho
+[21:17] == ljc [~ljc@unaffiliated/ljc] has quit [Quit: ayy]
+[21:18] == Luna [25a85947@gateway/web/freenode/ip.37.168.89.71] has quit [Ping timeout: 252 seconds]
+[21:23] <terjanq> @Luna i was also disappointed when after a great battle with the first part it wasn't the end of the chall.. Not even sure whether my solution is intended or not :p
+[21:23] <Pyhscript> too late
+[21:24] == mxchai [740f6a19@gateway/web/freenode/ip.116.15.106.25] has joined #meepwnctf2018
+[21:25] == AAAAAAAAA [~d3coy@2601:1c2:4b00:5c52:b81c:8fa6:5b02:256a] has joined #meepwnctf2018
+[21:25] == d3coy [47ee0421@gateway/web/freenode/ip.71.238.4.33] has quit [Quit: Page closed]
+[21:25] == aswinmguptha [uid155265@gateway/web/irccloud.com/x-kefwlxaebleuuedn] has joined #meepwnctf2018
+[21:26] == xrekkusu [~xrekkusu@2409:11:de20:500:e03b:dc5e:e559:4a37] has joined #meepwnctf2018
+[21:28] == Luna [25a85947@gateway/web/freenode/ip.37.168.89.71] has joined #meepwnctf2018
+[21:28] <llmp> grandline bot down
+[21:28] <llmp> fix plz
+[21:28] <Pyhscript> plz everyone go no predict on misc winner
+[21:29] <Pyhscript> #GamblingIsASin #SaveMyTeam
+[21:30] <Luna> Pyhscript: did you solve OmegaSector though?
+[21:31] <Pyhscript> Luna: I did not
+[21:31] <Pyhscript> i got to msgpart
+[21:32] <mxchai> im also stuck on omegasector...
+[21:32] <Luna> oh okay
+[21:32] <Shalom[p4]> first part is trivial compared to the second one :P
+[21:32] <Luna> hmmmm
+[21:32] <terjanq> second part is trivial compared to the first one
+[21:32] <mxchai> lol
+[21:32] <Pyhscript> why do we have to be so divided :'(
+[21:33] <Shalom[p4]> well first one is more guessy ;]
+[21:33] <mxchai> i'm still wondering how to even manipulate $whoareyou\
+[21:33] <Luna> qeq
+[21:33] <Luna> I'm blocked on the messages
+[21:33] <alcastronic> mxchai: same here
+[21:35] <alcastronic> Pyhscript: can not think of any thing more stupid than what I did till now lel
+[21:35] <disconnect3d> admin for smart contract?
+[21:35] <Pyhscript> to be fair i didn't do the first part , i woke up to it being done
+[21:36] <@tsug0d> pm me @disconnect3d
+[21:36] <Luna> If I can pull off OmegaSector I'll go become an alchemist
+[21:37] <Pyhscript> we all will
+[21:38] <Pyhscript> alchemists of meepwn
+[21:40] <aaaaaa> Any hints on the second part though? for OmegaSector
+[21:41] <x000505AD> Omega sector, no matter in CTFs or not, traps people as always
+[21:42] <aaaaaa> well i'm more kinda "limited" than trapped :3
+[21:42] <aaaaaa> but i think i can call it trapped too
+[21:42] == helloworld [61401324@gateway/web/freenode/ip.97.64.19.36] has joined #meepwnctf2018
+[21:42] == helloworld [61401324@gateway/web/freenode/ip.97.64.19.36] has quit [Client Quit]
+[21:43] <Pyhscript> aaaaaa: i was screaming your nick since we got to the second stage, weird
+[21:43] == ffsake [~dmby@155.143.171.194] has joined #meepwnctf2018
+[21:43] <aaaaaa> xD
+[21:44] == ffsake [~dmby@155.143.171.194] has quit [Client Quit]
+[21:44] == mrqubo [~arch@dpq84.neoplus.adsl.tpnet.pl] has quit [Ping timeout: 260 seconds]
+[21:45] == slenderestman [~quassel@ool-4a5884cd.dyn.optonline.net] has joined #meepwnctf2018
+[21:47] == asdasdf [~androirc@195.181.172.220] has quit [Ping timeout: 244 seconds]
+[21:47] == aventador [4ea74d5e@gateway/web/freenode/ip.78.167.77.94] has joined #meepwnctf2018
+[21:47] == free_ [90ca2528@gateway/web/freenode/ip.144.202.37.40] has joined #meepwnctf2018
+[21:48] <Luna> how much guessing is there in the second stage of OmegaSector?
+[21:48] <@tsug0d> zero
+[21:49] <Luna> mmmmmmm
+[21:49] == sc123 [ca78eac6@gateway/web/freenode/ip.202.120.234.198] has quit [Ping timeout: 252 seconds]
+[21:50] <Pyhscript> how many goats do i need to sacrifice to get it tho?
+[21:50] == mrqubo [~arch@dpm55.neoplus.adsl.tpnet.pl] has joined #meepwnctf2018
+[21:51] == aaaaa_ [71b6aaa5@gateway/web/freenode/ip.113.182.170.165] has joined #meepwnctf2018
+[21:52] == Gueeest [~name@public-gprs360474.centertel.pl] has joined #meepwnctf2018
+[21:56] == st98 [~st98@49.129.113.81] has quit [Ping timeout: 260 seconds]
+[21:57] <Gueeest> hi, who is an admin for esor? ;) just curiouse ;)
+[21:59] <Shalom[p4]> it's so broken, no one is going to admin they made it :P
+[21:59] <Shalom[p4]> *admit
+[22:01] <aaaaa_> why so many teams can solve ezchallz, got stuck half of day :(
+[22:01] == pythob [~androirc@195.181.172.220] has joined #meepwnctf2018
+[22:01] == pythob has changed nick to python
+[22:02] <Pyhscript> tfw you give up on omegasector and try to find work of other teams on server
+[22:03] <Shalom[p4]> we cleared ours :P
+[22:03] <Luna> kek
+[22:03] <Shalom[p4]> to avoid this :D
+[22:04] == llmp [29fa8c0f@gateway/web/freenode/ip.41.250.140.15] has quit [Ping timeout: 252 seconds]
+[22:05] <Pyhscript> bastards
+[22:10] == Gueeest [~name@public-gprs360474.centertel.pl] has quit [Read error: Connection reset by peer]
+[22:10] <Beched> to orgas: don't you think footbal betting is a bit non-relevant to ctf? =) it can give more points than most of the tasks, that's ridiculous =)
+[22:11] <Luna> bets are life
+[22:11] == baek7497 [uid305034@gateway/web/irccloud.com/x-ahppeugncoolxzsc] has quit [Quit: Connection closed for inactivity]
+[22:11] <Luna> it tests the luck
+[22:12] <Luna> we don't want the winners to be unlucky people
+[22:12] <Luna> thus we give the lucky ones an advantage
+[22:13] <Pyhscript> Beched: I said that in feedback yeah
+[22:13] <Pyhscript> it's bit strategic, whether to bet or not but thats all
+[22:13] == aaaaa_ [71b6aaa5@gateway/web/freenode/ip.113.182.170.165] has quit [Quit: Page closed]
+[22:14] <Pyhscript> then , maybe they planned for us to dox players and persuade them to lose
+[22:14] == Gueeest [~name@public-gprs360474.centertel.pl] has joined #meepwnctf2018
+[22:14] <@tsug0d> we will discuss and review the point
+[22:14] <@tsug0d> just want to made some fun :)
+[22:15] <Luna> Does OmegaSector turn into stego on the audio tracks that play once you get into each sector?
+[22:16] <@tsug0d> its in web category, isn it
+[22:16] <Luna> maybe
+[22:16] <Shalom[p4]> lol
+[22:16] <Shalom[p4]> :D
+[22:18] <Shalom[p4]> although to be fair we solved at least 2 challenges with unintended solutions
+[22:18] <Shalom[p4]> so who knows, maybe there is a way to solve Omega with stegano :D
+[22:19] <Gueeest> Shalom[p4]: you still have 8 flags to pick up ;)
+[22:20] <Shalom[p4]> yeah, working on this..
+[22:21] == jfunction [c432e7ee@gateway/web/freenode/ip.196.50.231.238] has joined #meepwnctf2018
+[22:21] == Deafe [67c72458@gateway/web/freenode/ip.103.199.36.88] has quit [Ping timeout: 252 seconds]
+[22:22] == AAAAAAAAA [~d3coy@2601:1c2:4b00:5c52:b81c:8fa6:5b02:256a] has quit [Quit: Leaving]
+[22:22] <Gueeest> Shalom[p4]: i can ee you here more offten then admins ;). A tu trzeba Z A P I E R D A L ? ;)
+[22:23] <Shalom[p4]> the only ctf category I'm good at is trolling :P
+[22:23] <Gueeest> and pushing teammates to write writeups I heard ;D
+[22:24] <Pyhscript> Shalom[p4]: you know what would be great troll? going to pastebin , pasting writeup to omegasector, then taking url and pm'ing it to me
+[22:25] <Shalom[p4]> Gueeest if they only wanted to write :P
+[22:26] <@tsug0d> uniten?
+[22:26] <@tsug0d> thats ridiculous...
+[22:26] == onepie [0eb1cc9c@gateway/web/freenode/ip.14.177.204.156] has joined #meepwnctf2018
+[22:26] <Shalom[p4]> Pyhscript fun fuct, I think we've got a writeup on a challenge which requires similar approach to Omega part2 :P
+[22:27] <Pyhscript> Shalom[p4]: you realize you just made me go through p4 writeups
+[22:27] <Shalom[p4]> you just have hundreds of writeups to go through... :D
+[22:27] <Pyhscript> well played
+[22:31] <Shalom[p4]> oh no I lied, we didn't make one for that particular challenge :(
+[22:33] <Pyhscript> still, it means similar challenge exists
+[22:33] <@tsug0d> maybe not...
+[22:34] <Shalom[p4]> similar to Omega part2? I'd say there are quite a lot of similar challenges, so maybe you're not looking for the right thing
+[22:35] <Pyhscript> probably
+[22:35] == Kr1s [59471118@gateway/web/freenode/ip.89.71.17.24] has joined #meepwnctf2018
+[22:38] <terjanq> Shalom[p4] so bad i invetned the whole solution by myself xd i didnt find any similar challange
+[22:39] <Pyhscript> just one question: will i facepalm or is it complicated?
+[22:40] == albkjdf [506e4533@gateway/web/freenode/ip.80.110.69.51] has joined #meepwnctf2018
+[22:41] <albkjdf> Hello. I have a question for the "old school" challenge
+[22:42] <albkjdf> Who can I PM?
+[22:42] <Shalom[p4]> terjanq it helped us only to get the right payload, because we knew the concept ;]
+[22:42] <terjanq> are there are any similar challanges to PyCalc?
+[22:43] <Shalom[p4]> I doubt it
+[22:44] <@tsug0d> @albkjdf: pm me
+[22:46] == crave [~crave@80-110-69-51.cgn.dynamic.surfer.at] has joined #meepwnctf2018
+[22:47] == mxchai [740f6a19@gateway/web/freenode/ip.116.15.106.25] has quit [Ping timeout: 252 seconds]
+[22:48] == felltign [ca3747f0@gateway/web/freenode/ip.202.55.71.240] has quit [Ping timeout: 252 seconds]
+[22:48] == muchach0 [8269eb08@gateway/web/freenode/ip.130.105.235.8] has joined #meepwnctf2018
+[22:48] == albkjdf [506e4533@gateway/web/freenode/ip.80.110.69.51] has quit [Quit: Page closed]
+[22:49] == onepie [0eb1cc9c@gateway/web/freenode/ip.14.177.204.156] has quit [Quit: Page closed]
+[22:49] == mxchai [740f6a19@gateway/web/freenode/ip.116.15.106.25] has joined #meepwnctf2018
+[22:49] <mxchai> test
+[22:50] == stuxn3t [uid287816@gateway/web/irccloud.com/x-xchwsvlfdenrndzz] has quit [Quit: Connection closed for inactivity]
+[22:50] == jfunction [c432e7ee@gateway/web/freenode/ip.196.50.231.238] has quit [Ping timeout: 252 seconds]
+[22:55] == qwerty123 [2966f6ce@gateway/web/freenode/ip.41.102.246.206] has quit [Quit: Page closed]
+[22:56] <jason85> are any characters from ['(',')','[',']','\'','"'] in the flag in pycalx?
+[22:58] <Shalom[p4]> any printable can be in the flag ;)
+[22:58] <@tsug0d> we discussed and lower the points of worldcup chall, thanks for feedback, read announcement for more details
+[23:02] == crave [~crave@80-110-69-51.cgn.dynamic.surfer.at] has quit [Quit: Leaving]
+[23:02] == crave [~crave@80-110-69-51.cgn.dynamic.surfer.at] has joined #meepwnctf2018
+[23:03] == aaaaaa [524e1e33@gateway/web/freenode/ip.82.78.30.51] has left #meepwnctf2018 []
+[23:08] == Gabies [528909d3@gateway/web/freenode/ip.82.137.9.211] has joined #meepwnctf2018
+[23:08] <Gabies> any admin I can PM for the task "Old School"?
+[23:08] <Gueeest> oh now it was the only chance for me...
+[23:10] == t1t0 [5fa04892@gateway/web/freenode/ip.95.160.72.146] has joined #meepwnctf2018
+[23:13] == nathan [uid284394@gateway/web/irccloud.com/x-mjdmybhsmqfxjglt] has joined #meepwnctf2018
+[23:14] <Gabies> any admin whatsoever? :)
+[23:14] <@tsug0d> here
+[23:15] <Gabies> hey, can I ask you about the task Old School or at least could you pass the message to the author or something?
+[23:16] == terjanq [531e8811@gateway/web/cgi-irc/kiwiirc.com/ip.83.30.136.17] has quit [Ping timeout: 264 seconds]
+[23:17] == fsad [7dea741e@gateway/web/freenode/ip.125.234.116.30] has joined #meepwnctf2018
+[23:17] <@tsug0d> since the challenge is solved, we wont hint anymore
+[23:18] <Gabies> I only need a clarification, not a hint
+[23:21] == cacam [29fa8c0f@gateway/web/freenode/ip.41.250.140.15] has joined #meepwnctf2018
+[23:21] <cacam> hello admin for 0xbad ?
+[23:21] <bmtd> <Gabies> pm me
+[23:22] == mode/#meepwnctf2018 [+o bmtd] by tsug0d
+[23:22] <@tsug0d> for 'old school' task pls pm @bmtd
+[23:30] == hida [da92143d@gateway/web/freenode/ip.218.146.20.61] has joined #meepwnctf2018
+[23:30] == hama [~hama@2001:268:c140:bf34:99e2:b951:db41:bcf3] has joined #meepwnctf2018
+[23:34] == bmtd [2a75e671@gateway/web/freenode/ip.42.117.230.113] has quit [Quit: Page closed]
+[23:36] == cacam [29fa8c0f@gateway/web/freenode/ip.41.250.140.15] has quit [Ping timeout: 252 seconds]
+[23:37] == python [~androirc@195.181.172.220] has quit [Ping timeout: 264 seconds]
+[23:46] == fsad [7dea741e@gateway/web/freenode/ip.125.234.116.30] has quit [Ping timeout: 252 seconds]
+[23:48] == Gueeest [~name@public-gprs360474.centertel.pl] has quit [Read error: Connection reset by peer]
+[23:49] == nooby_pwner [3e6c0233@gateway/web/freenode/ip.62.108.2.51] has joined #meepwnctf2018
+[23:50] <nooby_pwner> is it normal that i need to guess the location of "secret.txt" in "babysandbox"?
+[23:50] == heddha [5ccabfbe@gateway/web/freenode/ip.92.202.191.190] has joined #meepwnctf2018
+[23:51] == Gueeest [~name@public-gprs360474.centertel.pl] has joined #meepwnctf2018
+[23:51] == BisonSquad [520b7ef0@gateway/web/freenode/ip.82.11.126.240] has joined #meepwnctf2018
+[23:54] == hida [da92143d@gateway/web/freenode/ip.218.146.20.61] has quit [Ping timeout: 252 seconds]
+[00:00] <Luna> c'est parti!
+[00:01] <Luna> (le match)
+[00:05] == saika_lc [76df0698@gateway/web/freenode/ip.118.223.6.152] has joined #meepwnctf2018
+[00:05] <Pyhscript> my stream is 2 minutes late so i get spoilers from people yelling outside
+[00:06] <saika_lc> Croatia gogogoogogogoggo
+[00:06] <Pyhscript> ^
+[00:06] <saika_lc> go croatia~!~!~!
+[00:06] <Pyhscript> am croat
+[00:15] <Ariana> meepwn's goal seems to be as troll as possible mdr
+[00:16] <Luna> don't worry everyone france will win
+[00:17] <Ariana> I dont even know whats going on i literally asked like random people and took the average result
+[00:17] == mxchai [740f6a19@gateway/web/freenode/ip.116.15.106.25] has quit [Ping timeout: 252 seconds]
+[00:28] == WhoAmI [2776bcf2@gateway/web/freenode/ip.39.118.188.242] has joined #meepwnctf2018
+[00:28] == Gabies [528909d3@gateway/web/freenode/ip.82.137.9.211] has quit [Ping timeout: 252 seconds]
+[00:28] <t1t0> lol
+[00:29] <t1t0> fantastic goal
+[00:29] <alcastronic> 1:1
+[00:29] <Luna> pas de soucis france va gagner
+[00:29] <Luna> mecs
+[00:29] <t1t0> and croatia made two of them - ha!
+[00:30] <Ariana> Croatia scored both haha
+[00:36] <t1t0> now we can say that three.
+[00:37] <noobsagol> does anyone have a stream link for world cup?
+[00:39] <Ariana> i'm getting free update from whatsapp spam haha
+[00:39] <noobsagol> mine is my neighborhood folks screaming their lungs out lol
+[00:40] <noobsagol> also literally every stream link I visit crashes within few minutes of visit or has crashed already
+[00:41] == nooby_pwner [3e6c0233@gateway/web/freenode/ip.62.108.2.51] has quit [Ping timeout: 252 seconds]
+[00:43] == heddha [5ccabfbe@gateway/web/freenode/ip.92.202.191.190] has quit [Quit: Page closed]
+[00:46] == plean [4dca1a5f@gateway/web/freenode/ip.77.202.26.95] has joined #meepwnctf2018
+[00:47] <bibi__> any admin for silly note?
+[00:47] <@tsug0d> pm me
+[00:50] == OAlienO [uid286546@gateway/web/irccloud.com/x-xqyjshtvxvwvgapi] has quit [Quit: Connection closed for inactivity]
+[00:50] == asdasd [0e348d56@gateway/web/freenode/ip.14.52.141.86] has joined #meepwnctf2018
+[00:52] <Pyhscript> on reddit r/soccerstreams
+[00:57] == asdasd [0e348d56@gateway/web/freenode/ip.14.52.141.86] has quit [Quit: Page closed]
+[00:59] == aaa_ [89616ac0@gateway/web/freenode/ip.137.97.106.192] has quit [Ping timeout: 252 seconds]
+[01:12] == jinmo123 [b761d2ac@gateway/web/freenode/ip.183.97.210.172] has joined #meepwnctf2018
+[01:12] <jinmo123> I hate crypto and cryptocurrency
+[01:17] <saika_lc> jinmo123
+[01:17] <saika_lc> which team did you vote?
+[01:18] <jinmo123> I'm not brave to bet any team..
+[01:19] <Ariana> gg 3-1
+[01:19] <Pyhscript> and rip croatia :'(
+[01:19] <Ariana> meepwn ctf crypto is like i gave up completely not even going to touch
+[01:19] == secse [5cbc2e35@gateway/web/freenode/ip.92.188.46.53] has quit [Ping timeout: 252 seconds]
+[01:20] <jinmo123> woah, 62' now?
+[01:20] <jinmo123> gonna see it
+[01:20] <Pyhscript> jinmo123: my stream is 2 minutes late
+[01:21] <Pyhscript> i kinda want it to at least be 3-2
+[01:21] == asdfasdf [da92143d@gateway/web/freenode/ip.218.146.20.61] has joined #meepwnctf2018
+[01:21] <t1t0> imho they have 'lost i?'
+[01:21] <jinmo123> omg..
+[01:21] <Pyhscript> dat nick
+[01:22] <Pyhscript> i don't hear screams on french goals so those aren't spoiled
+[01:23] <jinmo123> shit.
+[01:23] <t1t0> omfg.
+[01:23] <Ariana> 4-1 srsly
+[01:24] <t1t0> my heart is with croatia
+[01:24] <Pyhscript> Ariana: wait really?
+[01:24] <Ariana> becoming germany vs brazil
+[01:24] <t1t0> yeah
+[01:25] <t1t0> but its croatia , they run full speed even after 120 minutes
+[01:25] <Pyhscript> i am turning it off
+[01:26] <plean> i someone here can help me with pycalx ?
+[01:26] <plean> hi*
+[01:27] <jinmo123> whatttttttttttttt
+[01:27] <Pyhscript> 4-2?
+[01:27] <jinmo123> 4:2
+[01:27] <t1t0> ROTFL
+[01:27] <Ariana> 4-2 apparently
+[01:27] <Pyhscript> just when i turn off tv
+[01:27] <t1t0> serious mistake of th goalkeeper
+[01:27] <Pyhscript> cmon, have honorable defeat
+[01:28] <Ariana> whats happening even haha
+[01:28] <t1t0> 20minutes / 2 goals - "DOABLE" :P
+[01:28] <Pyhscript> 4-2 is ok defeat
+[01:28] <WhoAmI> yes this is reason vote to france!
+[01:29] <Pyhscript> I did No Predict cause I couldn't be objective and we won the 3rd place bet
+[01:35] == HackNep [62ea6805@gateway/web/freenode/ip.98.234.104.5] has joined #meepwnctf2018
+[01:37] == t1t0 [5fa04892@gateway/web/freenode/ip.95.160.72.146] has quit [Ping timeout: 252 seconds]
+[01:39] == HackNep [62ea6805@gateway/web/freenode/ip.98.234.104.5] has quit [Ping timeout: 252 seconds]
+[01:40] == t1t0 [5fa04892@gateway/web/freenode/ip.95.160.72.146] has joined #meepwnctf2018
+[01:41] <t1t0> 2goals/10minutes - semi-doable imho
+[01:41] <Pyhscript> i'd be content with 1
+[01:44] <Pyhscript> t1t0: you from balkans?
+[01:45] == aswinmguptha [uid155265@gateway/web/irccloud.com/x-kefwlxaebleuuedn] has quit [Quit: Connection closed for inactivity]
+[01:45] <t1t0> nope. More to the north
+[01:45] <t1t0> Poland
+[01:46] <t1t0> but my heart is with the croatia ;)
+[01:46] == dsp25no [~textual@46.138.140.230] has joined #meepwnctf2018
+[01:48] == jason85 [~jason@dslb-178-003-214-067.178.003.pools.vodafone-ip.de] has quit [Quit: Leaving]
+[01:50] <Pyhscript> 2 goals 3 minutes?
+[01:53] <Pyhscript> 2 goals no minutes?
+[01:54] <jinmo123> gg
+[01:54] <Ariana> gg france
+[01:54] == dgfhfd [b072320d@gateway/web/freenode/ip.176.114.50.13] has joined #meepwnctf2018
+[01:54] <Pyhscript> you forgot about time travel
+[01:55] <Pyhscript> The Doctor is not british, he is secretly croat
+[01:56] == alevsk [~alevsk@fixed-187-188-63-1.totalplay.net] has joined #meepwnctf2018
+[01:56] <t1t0> croatia was a better team
+[01:56] <t1t0> with absolute NO luck
+[01:57] <WhoAmI> i correctly predict both winner!
+[01:58] == dsp25no [~textual@46.138.140.230] has quit [Quit: My MacBook has gone to sleep. ZZZzzz¡¦]
+[01:59] == dsp25no [~textual@46.138.140.230] has joined #meepwnctf2018
+[01:59] == dsp25no [~textual@46.138.140.230] has quit [Client Quit]
+[01:59] == dsp25no [~textual@46.138.140.230] has joined #meepwnctf2018
+[02:00] == dsp25no [~textual@46.138.140.230] has quit [Client Quit]
+[02:00] == dsp25no [~textual@46.138.140.230] has joined #meepwnctf2018
+[02:00] == hama [~hama@2001:268:c140:bf34:99e2:b951:db41:bcf3] has quit [Ping timeout: 265 seconds]
+[02:00] == dsp25no [~textual@46.138.140.230] has quit [Client Quit]
+[02:01] == dsp25no [~textual@46.138.140.230] has joined #meepwnctf2018
+[02:01] == dsp25no [~textual@46.138.140.230] has quit [Client Quit]
+[02:04] == plean [4dca1a5f@gateway/web/freenode/ip.77.202.26.95] has quit [Quit: Page closed]
+[02:04] <Pyhscript> WhoAmI: SINNER
+[02:06] == hama [~hama@2001:268:c142:4fb4:6c35:e12b:8a07:b185] has joined #meepwnctf2018
+[02:06] <Luna> um admin for OmegaSector?
+[02:06] <Luna> I think I found a way to actually overwrite the website's data
+[02:07] <Pyhscript> Luna: that'd be tsug0d
+[02:08] <@tsug0d> hi
+[02:08] <@tsug0d> pm me
+[02:08] == asdfasdf [da92143d@gateway/web/freenode/ip.218.146.20.61] has quit [Ping timeout: 252 seconds]
+[02:09] <WhoAmI> sorry for you
+[02:09] == herrera [~herrera@elt/member/herrera] has quit [Quit: WeeChat 1.4]
+[02:11] == Kei [b4f486e3@gateway/web/freenode/ip.180.244.134.227] has quit [Ping timeout: 252 seconds]
+[02:18] == ducnt [734a5f7a@gateway/web/freenode/ip.115.74.95.122] has joined #meepwnctf2018
+[02:18] == mode/#meepwnctf2018 [+o ducnt] by ChanServ
+[02:22] <Luna> Pyhscript: did you solve OmegaSector?
+[02:23] <Pyhscript> Luna: no, I was watching WC
+[02:23] <Luna> a
+[02:23] <Luna> http://138.68.228.12/human_message/DontDeletePls
+[02:24] <Luna> wait no
+[02:25] <@tsug0d> hey pls don't do this on irc
+[02:25] <Shalom[p4]> lol
+[02:25] <WhoAmI> wtf
+[02:27] <t1t0> ;-D
+[02:27] * Pyhscript deletes it
+[02:27] <Pyhscript> jk , I have no useful code execution
+[02:28] == OAlienO [uid286546@gateway/web/irccloud.com/x-appdfyxipdzwfcrd] has joined #meepwnctf2018
+[02:28] <alcastronic> messages many message
+[02:29] <Luna> http://138.68.228.12/alien_message/OnlyTheTruthIsHere ok last one before going back to work
+[02:30] <Pyhscript> yes, we know we can change path
+[02:31] <Pyhscript> BUT HOW TO EXECUTE ANYTHING USEFUL DAMMIT
+[02:31] <Luna> whoops
+[02:32] <Luna> but do you REALLY need to execute something
+[02:33] <Pyhscript> i need it so much
+[02:33] <Pyhscript> to console me after this wc
+[02:33] == bmtd [2a75e671@gateway/web/freenode/ip.42.117.230.113] has joined #meepwnctf2018
+[02:35] <Pyhscript> honestly i am just curious what the hell is it at this point
+[02:36] <disconnect3d> solution to alien & human riddle: https://www.youtube.com/watch?v=5-sfG8BV8wU
+[02:41] == mode/#meepwnctf2018 [+o bmtd] by tsug0d
+[02:45] <WhoAmI> jjjjust do it
+[02:45] == t1t0 [5fa04892@gateway/web/freenode/ip.95.160.72.146] has quit [Ping timeout: 252 seconds]
+[02:48] * Pyhscript furiously interested
+[02:48] == aventador [4ea74d5e@gateway/web/freenode/ip.78.167.77.94] has quit [Quit: Page closed]
+[02:49] == xrekkusu [~xrekkusu@2409:11:de20:500:e03b:dc5e:e559:4a37] has quit [Remote host closed the connection]
+[02:49] == dgfhfd [b072320d@gateway/web/freenode/ip.176.114.50.13] has quit [Ping timeout: 252 seconds]
+[02:51] <Pyhscript> Luna: wait , you solved it?
+[02:52] <Luna> why?
+[02:52] == tna0y [5daf1c23@gateway/web/freenode/ip.93.175.28.35] has joined #meepwnctf2018
+[02:53] <Pyhscript> Luna: no worries, i won't ask you for hints. just figured since you said that
+[02:53] <Luna> oh lel
+[02:53] <Luna> I think I'm on the path of solving it tho
+[02:53] == s0rc3r3r [uid175603@gateway/web/irccloud.com/x-bbezdbslpvbnktja] has quit [Quit: Connection closed for inactivity]
+[02:53] <Pyhscript> cool
+[02:53] == l4wio [67c72aef@gateway/web/freenode/ip.103.199.42.239] has joined #meepwnctf2018
+[02:53] == mode/#meepwnctf2018 [+o l4wio] by ChanServ
+[02:54] <@bmtd> hi l4w
+[02:54] == tna0y [5daf1c23@gateway/web/freenode/ip.93.175.28.35] has quit [Client Quit]
+[02:55] == s0rc3r3r [uid175603@gateway/web/irccloud.com/x-zfbrudbdzfhzpiix] has joined #meepwnctf2018
+[02:56] == Reznok [421b45b1@gateway/web/freenode/ip.66.27.69.177] has joined #meepwnctf2018
+[02:56] <Reznok> Is there an admin for Maplstory?
+[02:57] == noobsagol [~noobsagol@144.48.160.183] has quit [Remote host closed the connection]
+[02:58] == noobsagol [~noobsagol@144.48.160.183] has joined #meepwnctf2018
+[02:59] <Reznok> Just have a really quick question for maplstory admin :3
+[02:59] <@tsug0d> pm me
+[02:59] <@bmtd> pm @tsu
+[03:00] == sdfsdfasf [722214db@gateway/web/freenode/ip.114.34.20.219] has quit [Quit: Page closed]
+[03:02] == dsp25no [~textual@46.138.140.230] has joined #meepwnctf2018
+[03:02] == Kittehs [b915d884@gateway/web/freenode/ip.185.21.216.132] has joined #meepwnctf2018
+[03:02] == nathan [uid284394@gateway/web/irccloud.com/x-mjdmybhsmqfxjglt] has quit [Quit: Connection closed for inactivity]
+[03:02] == shark0der [~shark0der@86.120.51.174] has joined #meepwnctf2018
+[03:02] <@l4wio> 1 hour left
+[03:02] <shark0der> hi
+[03:02] <@l4wio> Don't forget to leave a feedback for us at : https://goo.gl/forms/B9D09XMLyzQaMsMh1
+[03:02] <Luna> which button do I press to solve OmegaSector
+[03:02] <@l4wio> thakn you
+[03:02] == noobsagol [~noobsagol@144.48.160.183] has quit [Remote host closed the connection]
+[03:02] == l4wio changed the topic of #meepwnctf2018 to: MEEPWN CTF 2018: https://scoreboard.meepwn.team | Please leave us a feedback at: https://goo.gl/forms/B9D09XMLyzQaMsMh1
+[03:03] == noobsagol [~noobsagol@144.48.160.183] has joined #meepwnctf2018
+[03:03] <shark0der> who can i pm about web/omegasector ?
+[03:03] == xztf [c4c886f9@gateway/web/freenode/ip.196.200.134.249] has joined #meepwnctf2018
+[03:03] <shark0der> i think i (almost?) got it, works locally, doesn't work on the challenge
+[03:03] <Kittehs> Dirbuster isn't intended for any of the web challenges right?
+[03:04] <shark0der> omegasector author?
+[03:04] <@bmtd> pm @tsu
+[03:05] <shark0der> thx
+[03:05] <@bmtd> for omegasector chall
+[03:05] <Eternal> who can I ask for one_shot ?
+[03:06] <Pyhscript> Kittehs: please don't dirbuster ctf
+[03:06] <Pyhscript> I am not admin
+[03:06] <Kittehs> Okay thx : D
+[03:06] <Pyhscript> but please don't
+[03:07] == mipu94 [2a754190@gateway/web/freenode/ip.42.117.65.144] has joined #meepwnctf2018
+[03:07] == mode/#meepwnctf2018 [+o mipu94] by ChanServ
+[03:07] <@l4wio> lol
+[03:08] == saika_lc [76df0698@gateway/web/freenode/ip.118.223.6.152] has quit [Quit: Page closed]
+[03:08] <xztf> who is admin of web ?
+[03:08] <@bmtd> @tsu
+[03:09] <alcastronic> 51 one minutes to go
+[03:09] <@ducnt> hi @xztf, what's your problem dude?
+[03:10] * alcastronic wants OmegaSector
+[03:10] <xztf> my problem is OmegaSector
+[03:11] <@ducnt> pm @tsug0d, he's author of this chall
+[03:12] <xztf> ok thanks
+[03:12] <Pyhscript> alcastronic: everyone does
+[03:14] <Pyhscript> did LC/BC flag hoard?
+[03:14] == cmalekpour [~cmalekpou@74.91.123.126] has left #meepwnctf2018 ["The Lounge - https://thelounge.github.io"]
+[03:14] <Pyhscript> cause it seemed like p4 had secured victory then these guys lol
+[03:14] == terjanq [531e8811@gateway/web/cgi-irc/kiwiirc.com/ip.83.30.136.17] has joined #meepwnctf2018
+[03:15] == asfdasfas [da92143d@gateway/web/freenode/ip.218.146.20.61] has joined #meepwnctf2018
+[03:18] == noobsagol [~noobsagol@144.48.160.183] has quit [Remote host closed the connection]
+[03:18] == itried [565b24a8@gateway/web/freenode/ip.86.91.36.168] has joined #meepwnctf2018
+[03:18] == noobsagol [~noobsagol@144.48.160.183] has joined #meepwnctf2018
+[03:19] <itried> Does anybody have a good resource other than the PHP docs for PHP_URL_HOST?
+[03:19] == asfdasfas [da92143d@gateway/web/freenode/ip.218.146.20.61] has quit [Client Quit]
+[03:22] == mipu94 [2a754190@gateway/web/freenode/ip.42.117.65.144] has quit [Quit: Page closed]
+[03:22] == noobsagol [~noobsagol@144.48.160.183] has quit [Remote host closed the connection]
+[03:22] == noobsagol [~noobsagol@144.48.160.183] has joined #meepwnctf2018
+[03:25] == _5unKn0wn [2775b258@gateway/web/freenode/ip.39.117.178.88] has quit [Ping timeout: 252 seconds]
+[03:26] == tomandjerry [77ca51c0@gateway/web/freenode/ip.119.202.81.192] has quit [Quit: Page closed]
+[03:28] == noobsagol [~noobsagol@144.48.160.183] has quit [Remote host closed the connection]
+[03:28] == noobsagol [~noobsagol@144.48.160.183] has joined #meepwnctf2018
+[03:30] <Beched> Pyhscript nope :P
+[03:31] <@l4wio> 30mins lef
+[03:31] <@l4wio> *left
+[03:33] == msm_ [~msm@tailcall.net] has joined #meepwnctf2018
+[03:33] == dsp25no [~textual@46.138.140.230] has quit [Read error: Connection reset by peer]
+[03:33] == _hellman_ [~hellman@ip-146-0-189-156.dyn.luxfibre.pt.lu] has joined #meepwnctf2018
+[03:33] <msm_> hi, can I ask somebody about Meepwn Smart Contract smart contract challenge?
+[03:33] == noobsagol [~noobsagol@144.48.160.183] has quit [Remote host closed the connection]
+[03:34] == noobsagol [~noobsagol@144.48.160.183] has joined #meepwnctf2018
+[03:34] <@bmtd> pm @tsu
+[03:35] == p213 [296607d6@gateway/web/freenode/ip.41.102.7.214] has joined #meepwnctf2018
+[03:35] <p213> any admin for pwn one_shot ??,  I can't find the flag ??
+[03:37] == l4wio [67c72aef@gateway/web/freenode/ip.103.199.42.239] has quit [Ping timeout: 252 seconds]
+[03:40] <p213> hello ??
+[03:40] == noobsagol [~noobsagol@144.48.160.183] has quit [Remote host closed the connection]
+[03:41] == noobsagol [~noobsagol@144.48.160.183] has joined #meepwnctf2018
+[03:42] == l4wio [71b9168b@gateway/web/freenode/ip.113.185.22.139] has joined #meepwnctf2018
+[03:42] == mode/#meepwnctf2018 [+o l4wio] by ChanServ
+[03:42] == kileak [~kileak@p200300C92F33A3F5096D347D8B856739.dip0.t-ipconnect.de] has joined #meepwnctf2018
+[03:42] == xrekkusu [~xrekkusu@2409:11:de20:500:e03b:dc5e:e559:4a37] has joined #meepwnctf2018
+[03:43] <@l4wio> @Beched thank you for your kind feedback
+[03:45] <bibi__> any writeup will open after ctf ends?
+[03:46] <p213> any help ??
+[03:46] <@tsug0d> one_shot author is away
+[03:46] <@tsug0d> but this challenge is solvable
+[03:46] <@tsug0d> so pls try harder
+[03:47] <p213> I already solved, but I can't find the flag
+[03:47] <bibi__> searching that
+[03:47] <theowni> is there anyone who could just show me payload for pycalx?
+[03:47] <theowni> after the end of CTF, naturally :)
+[03:48] <theowni> i have a piece of flag, but no idea how to get more
+[03:49] == slenderestman [~quassel@ool-4a5884cd.dyn.optonline.net] has quit [Ping timeout: 240 seconds]
+[03:49] == slenderestman [~quassel@ool-3f8fe399.dyn.optonline.net] has joined #meepwnctf2018
+[03:50] <@l4wio> there are many teams did it, so i suppose they will
+[03:50] <Pyhscript> is piece of flag MeePwnCTF{ :P
+[03:50] <theowni> nope :P more than that
+[03:51] <Ariana> rip 10 more mins so many chals unsolved :/
+[03:52] <Pyhscript> greatest curse would be if i figured omegasector and not have enough time to execute it
+[03:52] <terjanq> theowni i have also the whole flag except the blacklisted characters...
+[03:52] == Sceptic [~Sceptic@v22016122795141705.powersrv.de] has joined #meepwnctf2018
+[03:52] <Ariana> for pycalx?
+[03:52] <terjanq> yep
+[03:52] <Ariana> If you dont have the blacklisted characters, you wont be able to bruteforce
+[03:52] <Ariana> its just frustrating tbh
+[03:53] == t1t0 [5fa04892@gateway/web/freenode/ip.95.160.72.146] has joined #meepwnctf2018
+[03:53] <Ariana> i just need sleep its 3am here zzz
+[03:53] <xztf> from korea ?
+[03:53] <Ariana> btw when will we get free points for world cup
+[03:53] <@l4wio> 2am here
+[03:53] <terjanq> i wonder how this pycalcx challanges have so many solved and what am i missing
+[03:53] <@tsug0d> just sleep, then wake up and read omegasector writeup xD
+[03:53] <@l4wio> soon, our dev guy is working
+[03:53] <@l4wio> on it
+[03:54] <Ariana> I'll probably like destroy a few computers after reading omegasector writeup haha
+[03:54] <terjanq> I don't think so :p
+[03:54] <Ariana> pycalx is like as troll as it can get
+[03:54] <@l4wio> lul
+[03:54] <Ariana> wait no pycalx2 exists! its worse
+[03:54] <Pyhscript> tsug0d: nah , i want writeup now then i get rid of frustration WITH sleep
+[03:54] <Ariana> same
+[03:54] <Pyhscript> well not now, in 6 minutes
+[03:55] <@tsug0d> maybe someone will write it, im not gonna release mine xD
+[03:55] <terjanq> I am preparing payload for you guys
+[03:55] <terjanq> :p
+[03:55] <terjanq> prepare you pycalcx
+[03:55] <terjanq> to enlighten me
+[03:55] == jason85 [~jason@dslb-178-003-214-067.178.003.pools.vodafone-ip.de] has joined #meepwnctf2018
+[03:56] <bibi__> i reallllly wonder omega sector writeup
+[03:56] <Ariana> I think pycalx can be explained in one line
+[03:56] <terjanq> so is omegasector at your stage :p
+[03:56] <Ariana> It's just ike once you see it you got to remove nearby knives haha
+[03:56] <Shalom[p4]> I hate MaplStory :D got restricted shell but still no flag :(
+[03:57] <disconnect3d> maple story [']
+[03:57] <disconnect3d> never played this mmo (?) but had a lot of friends who did ;x
+[03:57] <Ariana> meepwn challenges are just frustrating. It's like once you get the idea you win
+[03:57] <Luna> did anyone solve part1 in Old School
+[03:58] <Shalom[p4]> obviously, a couple of teams
+[03:58] <Shalom[p4]> for example we did
+[03:58] <Pyhscript> 2 mins woop woop
+[03:58] <terjanq> I wonder who invents such challanges..
+[03:58] <Shalom[p4]> totally unintended solution though
+[03:59] <Shalom[p4]> at least I hope so
+[03:59] <Shalom[p4]> if it was intended, it would be ridiculous ;]
+[03:59] <slenderestman> nooooooo
+[03:59] <Ariana> would you mind telling at 3:00 i really just want to go to sleep mdr
+[03:59] == fermyon [5486dc04@gateway/web/freenode/ip.84.134.220.4] has joined #meepwnctf2018
+[03:59] <Shalom[p4]> Ariana which one?
+[03:59] <Shalom[p4]> Admins -> is one shot working properly?
+[03:59] <Shalom[p4]> we're not getting the flag :(
+[03:59] <Pyhscript> release hint to some challenge that takes more than a minute to solve
+[04:00] <slenderestman> gg
+[04:00] <Pyhscript> gg
+[04:00] <Gueeest> gg
+[04:00] <myria> gg
+[04:00] <Ariana> gg 3:00
+[04:00] <theowni> gg
+[04:00] <disconnect3d> gg
+[04:00] <Luna> woo
+[04:00] <WhoAmI> gg
+[04:00] <slenderestman> aw man
+[04:00] <Luna> ok how do you solve OMEGASECTOR
+[04:00] <slenderestman> big L
+[04:00] <Luna> pleaaaaaaase
+[04:00] <Beched> yoohoo
+[04:00] <icchy> gg
+[04:00] <slenderestman> who did
+[04:00] <Luna> how do you get past omegasector part2
+[04:00] <p1kosu> gg
+[04:00] <Ariana> how does one even do old_school part 1 and 2 srsly
+[04:00] <myria> hu..
+[04:00] <slenderestman> maplestory
+[04:00] <Pyhscript> Shalom[p4]: please omegasector stage 2 solution
+[04:00] <Shalom[p4]> Luna you could write to file .php
+[04:00] <terjanq> Ariana `message=<?=$_='$<>/'^'{{{{';${$_}[_](${$_}[__]);&type=/../../human_message/lol.php`
+[04:00] <Luna> also that
+[04:00] <Luna> and?
+[04:00] <terjanq> its payload
+[04:00] <Shalom[p4]> use alien to write weird shell
+[04:00] <terjanq> for shell :p
+[04:00] <_hellman_> Ariana: look at hex(n( of part 2
+[04:00] <Shalom[p4]> like <?= `/???/??? ../??????.??? > ===` ?>
+[04:00] <slenderestman> Ariana old_school part 1 is fermat factoring
+[04:00] <Ariana> OHNOWONDER
+[04:01] <Shalom[p4]> which copies secret.php to file ===
+[04:01] <slenderestman> part 2 was yeah lol
+[04:01] <slenderestman> i got part 2 first lmao
+[04:01] <jason85> how to do pycalx?
+[04:01] <Ariana> the source
+[04:01] <Luna> oh so you could code something in php using only special characters
+[04:01] == Hopjesvl_ [~hopjesvla@ip565b24a8.direct-adsl.nl] has quit [Remote host closed the connection]
+[04:01] <Ariana> You compare source with flag
+[04:01] <slenderestman> do op=+'
+[04:01] <Ariana> AND WIN
+[04:01] <_hellman_> slenderestman weird I tried it. How much is the difference between primes?
+[04:01] <Luna> how does one search that?
+[04:01] <terjanq> what is =+
+[04:01] <bibi__> how solve omega sector part 1?
+[04:01] <slenderestman> jason85 op=+' and part2 is somethins eomthing #
+[04:01] <Beched> terjanq haha nice, i also thought of jjencode, but bash trick is simpler (/???/??? ../*)
+[04:01] == sdfarhgeagdg [60ffd5e4@gateway/web/freenode/ip.96.255.213.228] has joined #meepwnctf2018
+[04:01] <sdfarhgeagdg> hey
+[04:01] <Shalom[p4]> we got part3 first
+[04:01] <Ariana> part2 is you use f strings
+[04:01] <terjanq> jjencode? i wrote it alone xd
+[04:02] <Ariana> I's a new thing
+[04:02] <slenderestman> _hellman_ i dont remember but it came out pretty quit
+[04:02] == Hopjesvla [~hopjesvla@ip565b24a8.direct-adsl.nl] has joined #meepwnctf2018
+[04:02] <slenderestman> quick
+[04:02] <t1t0> So if anyone interested in babysandbox: https://hastebin.com/aduserapeg.py
+[04:02] <jason85> slenderestman, I got that, but I couldnt enumerate the full flag, I got stuck somewhere
+[04:02] <sdfarhgeagdg> how do you solve house of cards?
+[04:02] <slenderestman> part 3 was copying code lol
+[04:02] <@ducnt> GGWP everyone. Happy hacking.
+[04:02] <Shalom[p4]> part1 we brute forced...
+[04:02] <Shalom[p4]> literally
+[04:02] <slenderestman> oh jason85 there were like () and []
+[04:02] <slenderestman> so
+[04:02] <Ariana> Wait for the old_school is it like using factorization techniques
+[04:02] <Ariana> oh
+[04:02] <Pyhscript> terjanq: what even should I have googled to figure out that
+[04:02] <slenderestman> you just put those in source variable
+[04:02] <slenderestman> and go like
+[04:02] <slenderestman> if source in flag
+[04:02] <Shalom[p4]> we guessed it will be something like "ooollldd" and bruted this :D
+[04:02] <Ariana> use source to binary search
+[04:02] <Ariana> cuz can source<flag
+[04:02] == fds_ [2a754190@gateway/web/freenode/ip.42.117.65.144] has joined #meepwnctf2018
+[04:02] <slenderestman> lmao wow
+[04:02] <Luna> wait I still don't get how one builds a php script by using only special chars
+[04:02] <bibi__> how get the $whoareyou ?
+[04:02] <alcastronic> dammit was after it but could not find ressources about that php payload
+[04:02] <bibi__> how change?
+[04:02] <Luna> in OmegaSector
+[04:02] <sdfarhgeagdg> how to house of cards?
+[04:03] <Ariana> then part2 you can use format strings magic
+[04:03] <terjanq> please guys dont spam too much i cant find solutions
+[04:03] <Ariana> to binary search
+[04:03] <Shalom[p4]> bibi__ you can send whole hostname as uri
+[04:03] <bibi__> example like...?
+[04:03] <@l4wio> @terjanq lul
+[04:03] <Pyhscript> Luna: yeah me neither
+[04:03] <Luna> so that was the main idea
+[04:03] <@bmtd> part _1 and part_3 you can solve using fermat factor technique
+[04:04] <Luna> I knew it had to be something like that
+[04:04] <Luna> but I didn't believe it was actually possible lol
+[04:04] <@bmtd> too much overthink
+[04:04] <Beched> Shalom[p4] lol the same, we guessed 1st part
+[04:04] <_hellman_> bmtd: can you share factors of part_1?
+[04:04] <Ariana> How long did the fermat take
+[04:04] <WhoAmI> 0xbad minton.... really don't know idea how to increase course number > 2 to trigger bof in the backend server
+[04:04] <Pyhscript> yeah i was googling searching for php jsfuck equivalents
+[04:04] <Ariana> I was like trying to spam weird expansions
+[04:04] <bibi__> @WhoAmI just race-condition
+[04:04] == Gabies [5289085a@gateway/web/freenode/ip.82.137.8.90] has joined #meepwnctf2018
+[04:04] <Shalom[p4]> I tried factoring and didn't get anyhting
+[04:04] == hdt [~hdt@45.78.7.188.16clouds.com] has quit [Ping timeout: 264 seconds]
+[04:04] <WhoAmI> Anyone who solved it?
+[04:04] <@bmtd> <1minute
+[04:04] == jason85 [~jason@dslb-178-003-214-067.178.003.pools.vodafone-ip.de] has quit [Quit: Leaving]
+[04:04] <sdfarhgeagdg> @bibi__ how do you exploit the bof?
+[04:04] <WhoAmI> race-condition in enroll?
+[04:04] <@l4wio> Please leave us a feedback at: https://goo.gl/forms/B9D09XMLyzQaMsMh1
+[04:04] <sdfarhgeagdg> i spent a hr trying fortify leak..
+[04:04] <Eternal> solution for one_shot ?
+[04:04] <Ariana> hmm let me retry fermat hold on
+[04:04] <bibi__> @sdfarhgeagdg just oob
+[04:05] <nazywam> sdfarhgeagdg overwrite argv so stack smashing prints the flag
+[04:05] <Shalom[p4]> also what was the intended solution for bitbitbit?
+[04:05] <shark0der> @terjanq @Shalom[p4] how did you get it to execute with short_open_tag off?
+[04:05] <sdfarhgeagdg> that's what i literally diddd
+[04:05] <Shalom[p4]> because we did Hastad :D
+[04:05] <Pyhscript> but shark0der <?= i guess
+[04:05] <sdfarhgeagdg> i spammed p64(flag_in_bss)*(0x400/8-1)
+[04:05] <Shalom[p4]> with my super optimized paralell CRT
+[04:05] <bibi__> @sdfarhgeagdg just leaking with stack-smashing-protector
+[04:05] <nazywam> sdfarhgeagdg:yeah, that was the payload
+[04:05] <@bmtd> part_3 can be solve as fermat(1337*7331*n) or recover prime using MSB
+[04:05] <sdfarhgeagdg> waht the fuck, i did that for an hour and didn't get flag
+[04:05] <Ariana> bitbitbit no clue where to even start, only maanged sha1 break
+[04:05] <shark0der> 0_0
+[04:05] == Hopjesvla [~hopjesvla@ip565b24a8.direct-adsl.nl] has quit [Ping timeout: 240 seconds]
+[04:06] <shark0der> i was not aware <?= works with short_tag_open off
+[04:06] <myria> i want one_shot solution...
+[04:06] <Shalom[p4]> Ariana well our solution didn't even look at the get generation ;)
+[04:06] <sdfarhgeagdg> @nazywam how many courses did you need to reach argv
+[04:06] <Shalom[p4]> just collected ~20k ciphertext-modulus pair
+[04:06] <Ariana> ._.
+[04:06] <Pyhscript> terjanq: any resource on that thing where you write php with only special chars , i can't find anything
+[04:06] <Ariana> areyouactuallyserious
+[04:06] <nazywam> sdfarhgeagdg: https://pastebin.com/raw/HMt3cqC1 we did 6
+[04:06] <bibi__> how change the $whoami in omegasector?
+[04:06] <Ariana> So just bruteforce
+[04:06] <nazywam> 4 should be enough perhaps?
+[04:07] <Ariana> Cuz you need like 65537/4 ish ciphertext-mod pairs
+[04:07] <Shalom[p4]> bibi__ s.sendall("GET http://human.ludibrium.meepwn.team?human=Yes HTTP/1.0\r\nHost: human.ludibrium.meepwn.team\r\nConnection: close\r\n\r\n")
+[04:07] <Ariana> My com a bit the slow cant do in time
+[04:07] <Shalom[p4]> no no
+[04:07] <p213> guys I solved the task one shot
+[04:07] <terjanq> Pyhscript i wrote this payload by myself. It uses the fact that you can xor strings in php
+[04:07] <bibi__> thx
+[04:07] <p213> but I did found the flag ??
+[04:07] <Shalom[p4]> with my magic solver it was like 30 min
+[04:07] <Pyhscript> terjanq: i see
+[04:07] <p213> any help
+[04:07] <Pyhscript> thanks
+[04:07] <Luna> terjanq yes but what strings?
+[04:07] <Ariana> dont you need to compute the sha1s though
+[04:07] <Luna> I mean
+[04:07] <Luna> how does that work
+[04:07] <Luna> it looks random
+[04:08] <Shalom[p4]> Ariana oh well, yes collecting data took a while
+[04:08] <Luna> any documentation/stuff to look at?
+[04:08] <Beched> sdfarhgeagdg s.send('%s%s\n' % ('a' * 248, flag)) worked for me (flag = p64(0x604070))
+[04:08] <Ariana> My com took like few seconds per sha1, i started when there was like 12hours left ;/
+[04:08] <Shalom[p4]> What was the solution for Mapl?
+[04:08] <Pyhscript> Shalom[p4]: when you get some time can you link me to "similar challenge" writeup?
+[04:08] <Shalom[p4]> we got the shell for 20 or 22 characters
+[04:08] == Gabies_ [52890cd3@gateway/web/freenode/ip.82.137.12.211] has joined #meepwnctf2018
+[04:08] <terjanq> Pyhscript https://github.com/tsug0d/PhpNoAlnum you can generate shell with this but with 2k characters xd
+[04:08] <Shalom[p4]> but we could call only no-arg functions :(
+[04:08] <terjanq> and mine has exactly 40 ;p
+[04:08] <Pyhscript> cause i still don't get how to get it
+[04:08] == Gabies [5289085a@gateway/web/freenode/ip.82.137.8.90] has quit [Ping timeout: 252 seconds]
+[04:08] == braindead_ [55fdfbe7@gateway/web/freenode/ip.85.253.251.231] has joined #meepwnctf2018
+[04:09] <Beched> @Shalom[p4]: you can reuse $key or $value to include it and upload shellcode in parallel (leak its path through phpinfo())
+[04:09] == BisonSquad [520b7ef0@gateway/web/freenode/ip.82.11.126.240] has quit [Quit: Page closed]
+[04:09] <Shalom[p4]> Pyhscript for example https://github.com/InfoSecIITR/write-ups/tree/master/2016/33c3-ctf-2016/misc/hohoho
+[04:09] <Gabies_> I only solved part2 wich was easy once you saw the binary representation of n and part 3 for wich i used a combination of coppersmith attack and bruteforce to get 1/4*log (n) bits
+[04:09] <Beched> so 20-byte payload is like include $key, and you send a path as a GET param name
+[04:09] <Shalom[p4]> you could call bash from php via `` and then do bash magic like we did
+[04:09] <Shalom[p4]> aaaaaaaaaaaaaa
+[04:09] <Shalom[p4]> $key
+[04:10] == Kr1s [59471118@gateway/web/freenode/ip.89.71.17.24] has quit [Ping timeout: 252 seconds]
+[04:10] <Shalom[p4]> fml
+[04:10] <Gabies_> How was part1 of old school solveable
+[04:10] == crave [~crave@80-110-69-51.cgn.dynamic.surfer.at] has quit [Quit: Leaving]
+[04:10] <Ariana> the rsa bitbitbit is basically use normal crt and the old_school is just use your factorization techniques?
+[04:10] == mrqubo [~arch@dpm55.neoplus.adsl.tpnet.pl] has quit [Ping timeout: 256 seconds]
+[04:10] <@bmtd> fermat factor
+[04:10] == Kernelpanic1 [6d8325fb@gateway/web/freenode/ip.109.131.37.251] has joined #meepwnctf2018
+[04:10] <@bmtd> it take <1 minute
+[04:10] <Ariana> i should just invest in getting less crappy computer haha
+[04:10] <bibi__> what about silly note?
+[04:10] <Gabies_> Maaaaaaaaan
+[04:10] <Shalom[p4]> Ariana I don't think it was the intended solution for bitbitbit ;)
+[04:10] <bibi__> i think it was oracle padding attack didn't?
+[04:10] <Pyhscript> Shalom[p4]: ... thank you, I did know about bash without alfanum but didn't remember ``, i guess it really is about trying harder
+[04:10] <sdfarhgeagdg> what was the solution for house of card?
+[04:11] <Beched> bibi__: just bit flipping, it's stupid block cipher
+[04:11] <Gabies_> My impacience killed me :))))
+[04:11] <Ariana> probably not but cant really see any ways to do
+[04:11] <bibi__> just bit flipping?
+[04:11] <bibi__> haha,,
+[04:11] <Ariana> Cuz you'll ave to predict the random number
+[04:11] <Shalom[p4]> bibi__ not really
+[04:11] <Shalom[p4]> just flipping
+[04:11] <Beched> @bibi__ you can flip the bits so that you set ","level":0,"":"
+[04:11] <Shalom[p4]> no oracle
+[04:11] <Ariana> Though it did say it isn't fully random so its predictable
+[04:11] <sdfarhgeagdg> solution for house of card, anyone???
+[04:11] <bibi__> loool
+[04:11] <bibi__> i didn't care about level
+[04:11] <adm1nkyj_LeaveCa> GG, everyone
+[04:11] <bibi__> my mistake
+[04:12] <Ariana> need to sleep have test tmr HAHAA so screwed
+[04:12] == Hopjesvla [~hopjesvla@ip565b24a8.direct-adsl.nl] has joined #meepwnctf2018
+[04:12] == Luna [25a85947@gateway/web/freenode/ip.37.168.89.71] has quit [Ping timeout: 252 seconds]
+[04:15] <WhoAmI> bibi__ I tried execute python requests in many processes but enroll race-condition doesn't work for me
+[04:15] == Gabies_ [52890cd3@gateway/web/freenode/ip.82.137.12.211] has quit [Ping timeout: 252 seconds]
+[04:15] <Beched> @WhoAmI you need separate sessions
+[04:15] <Pyhscript> ducnt: sorry to bother, but ETA on final scoreboard, given the WC scores?
+[04:15] <bibi__> @WhoAmI yeah separete sessions i used chrome,and chrome-secret mode two
+[04:16] <terjanq> someone has better minblowing solution for stage1 in `omega_sector` ? XD
+[04:16] <terjanq> `echo -ne 'GET ..@alien.somewhere.meepwn.team/..//index.php?alien=%40!%23%24%40!%40%40 HTTP/1.1\r\nHost: 138.68.228.12\r\nConnection: close\r\n\r\n' | nc 138.68.228.12 80`
+[04:16] <Beched> php sessions get locked, you need to get 4 PHPSESSID values, auth with each of them, then run race condition
+[04:16] <@tsug0d> ugh
+[04:16] <@tsug0d> i remember filter ..
+[04:16] <@tsug0d> :thinking_face:
+[04:16] <@ducnt> hi @Pyhscript, don't worry, we will update it soon.
+[04:16] == Ariana [3bbdead9@gateway/web/freenode/ip.59.189.234.217] has quit [Ping timeout: 252 seconds]
+[04:16] <Pyhscript> alright, thanks
+[04:16] <@bmtd> `https://pastebin.com/wGDV4Fge` solution for PART_1 OLD_SCHOOL
+[04:16] == shark0der [~shark0der@86.120.51.174] has quit [Quit: Leaving]
+[04:16] == Hopjesvla [~hopjesvla@ip565b24a8.direct-adsl.nl] has quit [Ping timeout: 240 seconds]
+[04:17] <WhoAmI> Aha, don't know about that :( ...
+[04:17] <Beched> @terjanq haha btw, this is a payload for apache from my talk in 2014. did you figure it youself or did you find it somewhere?
+[04:17] <terjanq> myself
+[04:17] <bibi__> anyone solved grandline ?
+[04:17] <Beched> bibi__ grandline is RPO
+[04:18] == noraj [~quassel@176-143-101-229.abo.bbox.fr] has joined #meepwnctf2018
+[04:18] <bibi__> thx!
+[04:18] == LogicalGeezers [5004b8c8@gateway/web/freenode/ip.80.4.184.200] has joined #meepwnctf2018
+[04:19] <Beched> @terjanq https://www.slideshare.net/beched/slides-34960189 (# 21-26)
+[04:19] <Eternal> what is the solution for one_shot ?
+[04:19] <@tsug0d> describe the ctf in two words guys :)
+[04:19] <Sceptic> Eternal: rop into a reverse shell
+[04:20] <terjanq> Beched your version is much much simpler and to make it work you have to cheat parse_url to return hostname
+[04:20] <terjanq> that the was the part which took me the most time
+[04:20] <Eternal> Sceptic: thx
+[04:20] <bibi__> ezchallz's xor guessing is painful
+[04:20] <sdfarhgeagdg> what is the solution for house of card
+[04:20] <bibi__> didn't like that too muchj
+[04:21] <bibi__> xP
+[04:21] <Shalom[p4]> bibi__ what?
+[04:21] == p213 [296607d6@gateway/web/freenode/ip.41.102.7.214] has quit [Quit: Page closed]
+[04:21] <Shalom[p4]> there was no guessing there
+[04:21] <bibi__> why no guessing?
+[04:21] <Shalom[p4]> because it was not needed? :D
+[04:21] <bibi__> hmmm i guessed md5(id)^fixed_hash
+[04:21] <bibi__> solved with that
+[04:21] <bibi__> not intended?
+[04:22] <Beched> there was local file inclusion vuln
+[04:22] <Sceptic> sdfarhgeagdg: heap overflow after editing a chunk that has to be resized
+[04:22] <Shalom[p4]> xor was constant
+[04:22] <@bmtd> how can i believe that many people cant solve part_1 then dislike this challenge, it is very basic :'(
+[04:22] <@bmtd> sad
+[04:22] <bibi__> yeah constant
+[04:22] <bibi__> but "do xor" is guessing didn't?
+[04:22] <Shalom[p4]> you could just get your own payload and xor with known plaintext
+[04:22] <disconnect3d> EX5 RE:
+[04:22] <disconnect3d> In [14]: ct='MdgsskESNr]8`am?}"M!KA~$G[v/\x7fvAO\x14S\x16G\x17X'  # ct flag retrieved from memory dump + hexdump (to get unprintable bytes)
+[04:22] <disconnect3d> In [15]: pt='MeepwnCTF{'  # known flag prefix
+[04:22] <disconnect3d> In [16]: pwn.xor(ct[:len(pt)], pt)  # lets see if its a xor/key
+[04:22] <disconnect3d> Out[16]: '\x00\x01\x02\x03\x04\x05\x06\x07\x08\t'
+[04:22] <disconnect3d> In [17]: ord('\t')
+[04:22] <Shalom[p4]> bmtd no, it was guessy as fuck
+[04:22] <disconnect3d> Out[17]: 9
+[04:22] <disconnect3d> In [18]: # looks like key is 0, 1, 2, 3, ...
+[04:22] <disconnect3d> In [19]: pwn.xor(ct, list(range(len(ct))))
+[04:22] <disconnect3d> Out[19]: 'MeepwnCTF{W3llc0m3_2_Th3_Bl4ck_P4r4d3}'
+[04:22] <@l4wio> https://scoreboard.meepwn.team/finalscore
+[04:22] <@l4wio> https://scoreboard.meepwn.team/finalscore
+[04:23] == l4wio changed the topic of #meepwnctf2018 to: MEEPWN CTF 2018: https://scoreboard.meepwn.team/finalscore | Please leave us a feedback at: https://goo.gl/forms/B9D09XMLyzQaMsMh1
+[04:23] <myria> oh..
+[04:23] <Shalom[p4]> bmtd nothing indicated what exactly could be done there
+[04:23] <Shalom[p4]> bmtd also we actually brute-forced part1 entirely :D
+[04:23] <@bmtd> i thought that everyone can solve this part, it just fermat factor, very basic, take <1minute
+[04:24] <Shalom[p4]> I tried running primefac on it and didn't work ;]
+[04:24] <Shalom[p4]> also again: nothing indicated fermat
+[04:24] <WhoAmI> lol race condition really pretty work :O thanks to bibi__, Beched
+[04:24] <Shalom[p4]> there are literally hunderds of such "special cases"
+[04:24] <@bmtd> how about part_2
+[04:24] <Eternal> Sceptic: can I know how you did reerse shell ?
+[04:24] <Shalom[p4]> this was ok
+[04:25] <Shalom[p4]> from hex/bin you could easily see
+[04:25] <@bmtd> many people dislike
+[04:25] <@bmtd> yeah
+[04:25] <Eternal> socket, connect, or bash from /dev/tcp ?
+[04:25] <Shalom[p4]> part2 was ok, you could see that randoms were about 128 bits and the multiplier was something like 0x100001

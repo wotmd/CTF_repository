@@ -1,0 +1,47 @@
+CHALLENGE PHRASE: home mistake password read only once or or zero four and the two
+CHALLENGE PHRASE: so now we can set it based on me that there's this call this function here maybe you can about what happens so
+CHALLENGE PHRASE: ten twenty four is going to have anything to do mistake wait for one
+
+Please make sure that your voiceprint is a high quality record.
+What is the size of your voiceprint mp3? ?
+
+for i in range(0,20):
+	conn.sendline(str(8))
+	
+-----------------------------output------------------------------------------
+
+Generating validation data...
+  0%|          | 0/16 [00:00<?, ?it/s]Exception KeyError: KeyError(<weakref at 0x7f654d53fc00; to 'tqdm' at 0x7f654d5be910>,) in <bound method tqdm.__del__ of   0%|          | 0/16 [00:00<?, ?it/s]> ignored
+Traceback (most recent call last):
+  File "src/adamtune.py", line 289, in <module>
+    sys.exit(0 if check_attempt(sys.argv[2], sys.argv[3], sys.argv[5:], sys.argv[4]) else 1)
+  File "src/adamtune.py", line 199, in check_attempt
+    alist += [ moviepy.editor.AudioFileClip(attempt_file) ]
+  File "/usr/local/lib/python2.7/dist-packages/moviepy/audio/io/AudioFileClip.py", line 72, in __init__
+    buffersize=buffersize)
+  File "/usr/local/lib/python2.7/dist-packages/moviepy/audio/io/readers.py", line 50, in __init__
+    infos = ffmpeg_parse_infos(filename)
+  File "/usr/local/lib/python2.7/dist-packages/moviepy/video/io/ffmpeg_reader.py", line 291, in ffmpeg_parse_infos
+    filename, infos))
+IOError: MoviePy error: failed to read the duration of file submissions/bb7dcc3d17e47aa58c79d7d37e0bf76c-in.mp3.
+Here are the file infos returned by ffmpeg:
+
+ffmpeg version N-86111-ga441aa90e8-static http://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2017 the FFmpeg developers
+  built with gcc 5.4.1 (Debian 5.4.1-8) 20170304
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc-5 --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gray --enable-libass --enable-libfreetype --enable-libfribidi --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-librtmp --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libzimg
+  libavutil      55. 63.100 / 55. 63.100
+  libavcodec     57. 96.101 / 57. 96.101
+  libavformat    57. 72.101 / 57. 72.101
+  libavdevice    57.  7.100 / 57.  7.100
+  libavfilter     6. 89.101 /  6. 89.101
+  libswscale      4.  7.101 /  4.  7.101
+  libswresample   2.  8.100 /  2.  8.100
+  libpostproc    54.  6.100 / 54.  6.100
+[mp3 @ 0x451ece0] Format mp3 detected only with low score of 1, misdetection possible!
+[mp3 @ 0x451ece0] Failed to read frame size: Could not seek to 1031.
+submissions/bb7dcc3d17e47aa58c79d7d37e0bf76c-in.mp3: Invalid argument
+
+YOU ARE NOT ADAM DOUPé, THE FAMOUS CYBERSECURITY PROFESSOR AND HACKER!!!!
+You will now be disconnected. Here is a fun fact about Adam Doupé, the famous cybersecurity professor and hacker:
+Adam Doupé, the famous cybersecurity professor and hacker guards his personal data VERY CAREFULLY.
+

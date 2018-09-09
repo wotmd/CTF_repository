@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type" /> 
+    <meta charset="utf-8" />
+    
+    <title>Webminal - 404: Not Found</title>
+
+    <script type="text/javascript" src="/static/nprogress.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/nprogress.css" />
+    <script type="text/javascript" src="/static/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/script.js"></script> 
+    
+    <link rel="stylesheet" type="text/css" href="/static/reset.css" />
+    <link rel="stylesheet" type="text/css" href="/static/style.css" />
+    
+    <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script> -->
+    <script type="text/javascript" src="/static/all.js"></script> 
+<!--Start of Tawk.to Script
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/565c786b5d0ca1583113322e/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+-End of Tawk.to Script-->
+<!--google -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72438141-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- google -->
+    
+    
+    
+  </head>
+
+  <body class="">
+    
+      <div id="tmesg" style="font-size:15px; color:#8DAAFF;float: right">  </div>
+      <div class="container">
+        
+        
+        <header>
+          <div class="logo">
+            <span class="bracket">[</span>
+            <h1>Webminal</h1>
+            <span class="bracket">]</span>
+          </div>
+          
+          <ul class="nav">
+            <li><a href="/"><i class="fas fa-home"></i> Home</a></li>
+            
+              <li><a href="/register/"><i class="fas fa-user-plus"></i> Register</a></li>
+            
+            
+            
+              <li><a href="/login/"><i class="fas fa-sign-in-alt"></i> Log In</a></li>
+             <li><a href="/terminal/"><i class="fas fa-terminal"></i> Terminal</a></li>
+            
+            <!-- <li><a href="http://community.webminal.org" target="_blank">Forum</a></li> -->
+            <!-- <li><a href="/cast/">UI v CLI</a></li> -->
+            <!-- <li><a href="/d/">sudo</a></li>  -->
+            <!-- <li><a href="/plans/">Pricing</a></li> -->
+            <li><a href="/contact/"><i class="fas fa-lightbulb"></i> Team</a></li>
+            <li><a href="/about/"><i class="fas fa-info"></i> About</a></li>
+            <li><a href="/faq/"><i class="fas fa-question-circle"></i> FAQ</a></li>
+            <!--<li><a href="https://liberapay.com/webminal/donate"><i class="fas fa-heart"></i> Donate </a></li> -->
+             
+          </ul>
+        </header>
+
+        
+        
+  <h2>The file you are looking for isn't here.</h2>
+  If you find something wrong, please mail and inform  us at
+ <pre> efgadmin AT webminal DOT org </pre>
+  Thanks for your support and help!<br/>
+
+      </div>
+    
+  </body>
+</html>

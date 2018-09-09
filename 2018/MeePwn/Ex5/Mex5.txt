@@ -1,0 +1,11 @@
+04:22] <disconnect3d> EX5 RE:
+[04:22] <disconnect3d> In [14]: ct='MdgsskESNr]8`am?}"M!KA~$G[v/\x7fvAO\x14S\x16G\x17X'  # ct flag retrieved from memory dump + hexdump (to get unprintable bytes)
+[04:22] <disconnect3d> In [15]: pt='MeepwnCTF{'  # known flag prefix
+[04:22] <disconnect3d> In [16]: pwn.xor(ct[:len(pt)], pt)  # lets see if its a xor/key
+[04:22] <disconnect3d> Out[16]: '\x00\x01\x02\x03\x04\x05\x06\x07\x08\t'
+[04:22] <disconnect3d> In [17]: ord('\t')
+[04:22] <Shalom[p4]> bmtd no, it was guessy as fuck
+[04:22] <disconnect3d> Out[17]: 9
+[04:22] <disconnect3d> In [18]: # looks like key is 0, 1, 2, 3, ...
+[04:22] <disconnect3d> In [19]: pwn.xor(ct, list(range(len(ct))))
+[04:22] <disconnect3d> Out[19]: 'MeepwnCTF{W3llc0m3_2_Th3_Bl4ck_P4r4d3}'

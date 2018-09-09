@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Quantico');
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 0.5em 1em;
+  width: 180px;
+  text-transform: uppercase;
+  font-family: var(--font-family-mp);
+  font-size: 1em;
+}
+th{
+    font-family: var(--font-family-mp);
+}
+.fill:hover,
+.fill:focus, div.fill {
+  /*box-shadow: inset 0 0 0 2em var(--hover);*/
+    background-image: url('http://www.nyan.cat/cats/nyancoin.gif');
+    background-size: 40%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.pulse:hover,
+.pulse:focus, div.pulse {
+/*  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);*/
+
+    background-image: url('http://www.nyan.cat/cats/gb.gif');
+    background-size: 40%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+.closex:hover,
+.closex:focus,div.closex  {
+  /*box-shadow: inset -5.5em 0 0 0 var(--hover), inset 5.5em 0 0 0 var(--hover);*/
+  background-image: url('http://www.nyan.cat/cats/pumpkin.gif');
+
+    background-size: 40%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.raise:hover,
+.raise:focus, div.raise {
+/*  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  -webkit-transform: translateY(-0.25em);
+          transform: translateY(-0.25em);*/
+              background-image: url('http://www.nyan.cat/cats/pikanyan.gif');
+    background-size: 40%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.up:hover,
+.up:focus,div.up  {
+  /*box-shadow: inset 0 -3.25em 0 0 var(--hover);*/
+      background-image: url('http://www.nyan.cat/cats/j5.gif');
+    background-size: 35%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.slide:hover,
+.slide:focus,div.slide  {
+  /*box-shadow: inset 12.5em 0 0 0 var(--hover);*/
+      background-image: url('http://www.nyan.cat/cats/nyaninja.gif');
+    background-size: 40%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.offset {
+  box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+}
+
+.offset:hover, .offset:focus,div.offset  {
+  /*box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);*/
+      background-image: url('http://www.nyan.cat/cats/mummy.gif');
+    background-size: 40%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.fill {
+  --color: #1db5a7;
+  --hover: #d23436;
+}
+
+.pulse {
+  --color: #03a9f4;
+  --hover: #d23436;
+}
+
+.closex {
+  --color: #ff9800;
+  --hover: #d23436;
+}
+
+.raise {
+  --color: #ffda2e;
+  --hover: #d23436;
+}
+
+.up {
+  --color: #9d73e8;
+  --hover: #d23436;
+}
+
+.slide {
+  --color: #ffda2e;
+  --hover: #d23436;
+}
+
+.offset {
+  --color: #ffda2e;
+  --hover: #d23436;
+}
+
+.solved {
+  --color: #8bc34a;
+  --hover: #8bc34a;
+  /*background-color: #272727;*/
+  border-color: #272727;
+  color: #5a5a5a;
+  border-radius: 5px;
+  /*border: 0px;*/
+}
+button.solved{
+    width: 180px;
+    height: 80px;
+}
+
+button.btnx {
+  color: var(--color);
+  transition: 1.3s;
+  border-radius: 5px;
+  width: 180px;
+  height: 80px;
+}
+button.btnx:hover, button.btnx:focus {
+  /*border-color: var(--hover);*/
+  text-align: left;
+  font-size: 90%;
+  /*color: #fff;*/
+}
+
+.taskdesc{
+    font-family: "Share Tech Mono",monospace;
+    font-size: 1.1em;
+}

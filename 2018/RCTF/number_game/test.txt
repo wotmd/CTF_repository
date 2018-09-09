@@ -1,0 +1,100 @@
+3 7 1 9
+Nope. 0, 1
+
+2 0 5 1
+Nope. 0, 1
+
+6 8 7 5
+Nope. 0, 1
+
+4 3 2 8
+Nope. 0, 1
+
+9 6 4 0
+Nope. 0, 1
+
+GuessNum : 9643
+Nope. 0, 1
+
+GuessNum : 6942
+Nope. 0, 1
+
+
+
+------------------------------------------
+
+3 7 1 9
+Nope. 0, 3
+
+9 1 8 7
+Nope. 0, 3
+
+1 9 7 2
+Nope. 0, 3
+
+7 5 9 1
+Nope. 0, 3
+
+GuessNum : 7512
+Nope. 0, 3
+
+GuessNum : 7513
+Nope. 0, 3
+
+GuessNum : 5714
+Nope. 0, 3
+
+
+--------------------------------
+
+3 7 1 9
+Nope. 0, 2
+
+7 4 3 5
+Nope. 0, 2
+
+1 8 5 7
+Nope. 0, 2
+
+6 3 7 8
+Nope. 0, 2
+
+8 5 9 3
+Nope. 0, 2
+
+GuessNum : 8512
+Nope. 0, 2
+
+GuessNum : 8513
+Nope. 0, 2
+
+GuessNum : 1584
+Nope. 0, 2
+
+
+
+---------------------
+
+3 7 1 9
+Nope. 1, 1
+
+9 6 1 5
+Nope. 1, 1
+
+4 5 1 3
+Nope. 1, 1
+
+8 3 1 6
+Nope. 1, 1
+
+5 8 1 7
+Nope. 1, 1
+
+GuessNum : 5813
+Nope. 1, 1
+
+GuessNum : 5814
+Nope. 1, 1
+
+
+
