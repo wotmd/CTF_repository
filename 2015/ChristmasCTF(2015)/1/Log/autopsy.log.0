@@ -1,0 +1,41 @@
+12월 25, 2015 12:31:48 오전 org.sleuthkit.autopsy.corecomponentinterfaces.CoreComponentControl closeCoreWindows
+정보: tcName was null
+12월 25, 2015 12:31:48 오전 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+정보: Found ingest module factory: name = Android Analyzer, version = 3.1.2
+12월 25, 2015 12:31:48 오전 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+정보: Found ingest module factory: name = E01 Verifier, version = 3.1.2
+12월 25, 2015 12:31:48 오전 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+정보: Found ingest module factory: name = Exif Parser, version = 3.1.2
+12월 25, 2015 12:31:48 오전 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+정보: Found ingest module factory: name = Extension Mismatch Detector, version = 3.1.2
+12월 25, 2015 12:31:48 오전 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+정보: Found ingest module factory: name = File Type Identification, version = 3.1.2
+12월 25, 2015 12:31:48 오전 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+정보: Found ingest module factory: name = Hash Lookup, version = 3.1.2
+12월 25, 2015 12:31:48 오전 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+정보: Found ingest module factory: name = Interesting Files Identifier, version = 3.1.2
+12월 25, 2015 12:31:48 오전 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+정보: Found ingest module factory: name = PhotoRec Carver, version = 3.1.2
+12월 25, 2015 12:31:48 오전 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+정보: Found ingest module factory: name = Archive Extractor, version = 3.1.2
+12월 25, 2015 12:31:48 오전 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+정보: Found ingest module factory: name = Keyword Search, version = 3.1.2
+12월 25, 2015 12:31:48 오전 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+정보: Found ingest module factory: name = Email Parser, version = 3.1.2
+12월 25, 2015 12:31:48 오전 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+정보: Found ingest module factory: name = Recent Activity, version = 3.1.2
+12월 25, 2015 12:31:48 오전 org.sleuthkit.autopsy.coreutils.ModuleSettings setConfigSetting
+정보: File did not exist. Created file [org.sleuthkit.autopsy.casemodule.AddImageWizardIngestConfigPanel.properties]
+12월 25, 2015 12:31:49 오전 org.sleuthkit.autopsy.coreutils.ModuleSettings getConfigSetting
+정보: File did not exist. Created file [org.sleuthkit.autopsy.casemodule.ImageDSProcessor.properties]
+12월 25, 2015 12:31:56 오전 org.sleuthkit.autopsy.coreutils.Logger logUserFriendlyOnly
+심각: Core errors occurred while running add image. 
+Exception:  org.sleuthkit.datamodel.TskCoreException: Errors occured while ingesting image 
+1. Cannot determine file system type (Sector offset: 0) 
+
+12월 25, 2015 12:31:56 오전 org.sleuthkit.autopsy.casemodule.AddImageTask postProcess
+경고: Critical errors or interruption in add image process. Image will not be committed.
+12월 25, 2015 12:31:56 오전 org.sleuthkit.autopsy.casemodule.AddImageTask revert
+정보: Revert after add image process
+12월 25, 2015 12:31:56 오전 org.sleuthkit.autopsy.casemodule.AddImageTask postProcess
+정보: There were errors that occured in add image process

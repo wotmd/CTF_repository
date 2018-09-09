@@ -1,0 +1,6 @@
+
+fingerprint(key.pub) =  65:14:74:2e:d7:cf:4b:5d:52:79:c1:e5:c6:28:f9:62
+
+cipher:
+
+ISdp8De2bm0IRlCQxvBu882OXJ6DfJWMU9hcpwXbzgICgZw1oN2xZEGzPgBLB6Q/Xni147mNFnmuQQS0m4E+yXyvogMj+eWb6s7syJRpy0vxTRazWPCk5FoqS2jlWI0ghMlijAZFxFvZ/xaHN9aB3/4H/cqqSx2XfPEuvu/rwecLMdDbYcdiEOygJWFFHFxZsPB4RG98iYfs5QmLMQ4HO0FPFzxmxLDPCALY5graPjD3SP1loF/LxgmSzQAV8Bf0z3cpobXxLy5ye92zYrPZLWgFYuEl4DapEaBTqpGf8g2W2Yo+QiBZ/FHkBlYW24txKqTvcZh+7lZ9GwVTAzA96w==

@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: res/drawable-xhdpi/ic_launcher.png
+SHA1-Digest: UCzYT6RE8m1+z99KNVBkhnl38jY=
+
+Name: res/layout/main.xml
+SHA1-Digest: tCrQJ1OVI2bW6VAcgN5y8zNN72o=
+
+Name: res/drawable-hdpi/after.jpg
+SHA1-Digest: QqMm3pxHBzojilsrGzOzTWBAk3I=
+
+Name: AndroidManifest.xml
+SHA1-Digest: RuF9KGtSsO6u024Pjc4w5G2LgpY=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: I3MP0NXnINH3Gb4a/IxI+nMF2mw=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: RQ09RDJf3yWYEKYOavo2ED4Yaz0=
+
+Name: lib/armeabi/libvaccine.so
+SHA1-Digest: GngoP5qAc58tVCp5YmPP3QGFUlo=
+
+Name: res/drawable-hdpi/before.jpg
+SHA1-Digest: IA03CV2pHN3nPa/S0qA5SQPjTw8=
+
+Name: resources.arsc
+SHA1-Digest: eFU/80FDBlY0dnIKbZFc0yGScv8=
+
+Name: classes.dex
+SHA1-Digest: ZVD97Rxu+64c3dJeo7ETHTiT5DE=
+
+Name: res/drawable-ldpi/ic_launcher.png
+SHA1-Digest: CepliFtAgOUV73Bk6BbHeZHAdXs=
+

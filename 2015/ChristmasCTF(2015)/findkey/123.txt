@@ -1,0 +1,80 @@
+ABCDEFG
+abcdefghijklmnopqrs
+abcdefghijklmnopqrstuv
+ABCDEFGHIJKLMNOP
+abcdefghijklmnopqrstuv
+ab
+abcdefghijklmnopqr
+abcdefgh
+ABCD
+abcdefghijklmnopqrstuv
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+abcdefghi
+abcdefghijklmnopqrstuv
+ABCDEFGHIJKLMNOPQRSTU
+abcdefghi
+abcdefghijkl
+a
+abcdefghijklmnopqrstuv
+abcdefghijklm
+ABCDEFGHIJKLMNOPQRSTUVWXY
+abcdefghijklmnopqrstuv
+abcdefghijklmnopqrstuv
+abcdefghi
+
+GsvPvbrhDvZivUilavmYvvi
+
+
+353°³
+
+A : 23
+B : 22
+C : 21
+D : 21
+E : 20
+F : 20
+G : 20
+H : 19
+I : 18
+J : 15
+K : 15
+L : 15
+M : 14
+N : 13
+O : 13
+P : 13
+Q : 12
+R : 12
+S : 11
+T : 10
+U : 10
+V : 9
+W : 2
+X : 2
+Y : 2
+Z : 1
+
+
+
+7
+19
+22
+16
+22
+2
+18
+8
+4
+22
+26
+9
+22
+21
+9
+12
+1
+22
+13
+25
+22
+22

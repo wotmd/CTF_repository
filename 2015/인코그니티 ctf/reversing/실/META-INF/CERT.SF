@@ -1,0 +1,37 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: k9Br0sDMHCCwQJwSAEzza5zUj98=
+
+Name: res/layout/main.xml
+SHA1-Digest: FhbJhEnVKVG0PQBjPP3xUYiIKBo=
+
+Name: res/drawable-xhdpi/ic_launcher.png
+SHA1-Digest: HJWVdRCXqdgpLGGDT6Uzb5hkqQE=
+
+Name: AndroidManifest.xml
+SHA1-Digest: va0+pkUd7prE0tDvKd2maHmhsC8=
+
+Name: res/drawable-hdpi/after.jpg
+SHA1-Digest: XlVbkh+bjhzV0KUKIixvmArxKSk=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: 73TZoa+3ApYPkY+wbmr1XiAso58=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: 0oRDYl4wUOm0bMq8eVLJG09zkTg=
+
+Name: lib/armeabi/libvaccine.so
+SHA1-Digest: AeeavgESZeubN3O6s6moX477xWY=
+
+Name: res/drawable-hdpi/before.jpg
+SHA1-Digest: RZrNcVQfFNyQVa7ggLjv8kM25CQ=
+
+Name: resources.arsc
+SHA1-Digest: yOHv9caHXjAbNzC//RF715lxgCo=
+
+Name: classes.dex
+SHA1-Digest: Ff6PHBs++HAadQUS4CvidBF9qds=
+
+Name: res/drawable-ldpi/ic_launcher.png
+SHA1-Digest: 2UO3QTOJW0jA6L4fx4GV0P+TKag=
+

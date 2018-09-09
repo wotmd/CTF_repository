@@ -1,0 +1,26 @@
+<div class="jumbotron">
+  <h1>Motto Mijikai Address</h1>
+  <p>You can go anywhere with short link!</p>
+  <% unless session.get('user') %>
+    <p><a class="btn btn-primary btn-lg" href="login" role="button">Log in</a>&nbsp;<a class="btn btn-primary btn-lg" href="register" role="button">Register</a></p>
+  <% end %>
+
+  <% if session.get('user') %>
+    <form class="form" method="post" action="new">
+      <div class="form-inline">
+        <input type="text" class="form-control" id="url" placeholder="URL" size="60" name="url">
+        <button type="submit" class="btn btn-primary">Shorten</button>
+      </div>
+    </form>
+    <a href="logout" class="btn btn-primary">Logout</a>
+  <% end %>
+</div>
+
+<% if session.get('user') %>
+  <h2>Recent URLs</h2>
+  <ul>
+  <% urls.each do |url| %>
+    <li><a href="jump/<%= url['param']%>" target="_blank"><%= ERB::Util.h url['url'] %></a></li>
+  <% end %>
+  </ul>
+<% end %>

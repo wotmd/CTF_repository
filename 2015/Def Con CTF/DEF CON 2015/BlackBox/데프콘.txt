@@ -1,0 +1,273 @@
+"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~ "
+
+Password [om1hPhp11xP^O^]	Expected [GG`_hw?,#"h18,%;hp#?#"]
+Password [VTiO|OWiie|'{']	Expected [-'OU3rp0Oex140$OUtp87``]
+Password [ECR}-}FRRN-z,z]	Expected [$64}BsYj}Bcjsvc}Egtcpq$]
+Password [CAP{+{DPPL+x*x]	Expected [<<y4{|opqpa{Lqco{OanraZ]
+Password [NLaG@GOaaW@8?8]	Expected [^^%7GZpjrGO1mmGdhpmz]
+Password [nl0gOgo00wO]N]]	Expected [OO_~gm7;":gl?9<:"gh+@%,>]
+Password [WUjP}PXjjf}(|(]	Expected [AC,(PRuqtPc4!3t8Pc44y3w]
+Password [jhwcKckwwsK?J?]	Expected [DE[[cg"'9<cf(4+3,ce344%7]
+Password [YWlR RZllh *~*]	Expected []]-:Rhs963wRZ#!2wvRS!7w5]
+Password [&$=8q8'==/qTpT]	Expected [uuTV8%DMCQ8,GLLG8< ^ODK]
+Password [\@D;8;]DD 8l7l]	Expected [ms;@WLObc;?OKNOX; OKd77]
+Password [B O`*`COOK*w)w]	Expected [?AZmin`DhkZg`y4`KVdgn?]
+Password [us7nVnv773V~U~]	Expected [KBCnt%`-<+ny){[no;&][,K]
+Password [us7nVnv773V~U~]	Expected [t)](%:np]@@n5)<)_[nCEii]
+Password [SQfL_LTffb_$^$]	Expected [ ,(LhuoqLSxqz4LTuwuzs ]
+
+	  ASD
+Password [A%E]
+         0 48 1
+        
+         A S  D
+         A u  7
+         0 28 56
+n=1;  
+
+          0  1
+	  A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S T U V W X YZabcdefghijklmnopqrstuvwxyz01234567
+Password [A  x  D  0  G  3  J  6  M  9  P  #  S  &  V  )  Y  ,  b / e < h ? k \ n _ q |t wCzF2I5L8O"R%U(X+a.d;g>j[m^p]
+
+          0 48  1  49 2  50 3  51 4 52
+
+
+n=2
+
+
+	  ABCDEFGQWEQWEQW01234213
+Password [AxD0G3J&a4V.K)dM9P#S#Q%]
+
+
+	  0  1  2  3213YZabcdefghijklmnopqrstuvwxy
+Password [0  J  9  S'X/B1K!T*c=l`uD3M#V,e?n|wF5O%X]
+          0  51  7
+
+n=3
+
+          C  C  C  A  S  F  S  F  S  F  #  $%#435
+Password [C  A  ~  `  K  {  G  ]  C  ?  s  r  q mcZZ]
+          95  93 91 89 87
+
+AS0
+A9r
+
+CCC
+Ct_
+
+
+//
+ASD
+A'I
+CCC
+C0H
+//
+ASD
+AH/
+
+CCC
+C].
+000
+0pe
+
+
+1 2 3 
+9
+8 7 6
+36
+-16
+
+20
+
+400
+
+          ABCDEFG
+Password [ZxCDFJR]	Expected [{\w?(0.syJ0n<<2C *}.#ie]
+
+
+
+
+          0   1   2   3   4   5   6  17
+          A   B   C   D   E   F   G
+Password [Z   x   C   D   F   J   R       ]
+         25  48   0   0   1   1   11
+         
+1
+49
+				      16 22   4  16  22   4   16  
+          A   B   C   D   E   F   G   Q   W   E   Q   W   E   Q   W   0   1   2 3 4 2 1 3
+Password [-   z   I   S   j   (   q   @   p   /   t   N   U   c   -   v   [   + w A } _  ]	Expected [{\w?(0.syJ0n<<2C *}.#ie]
+          74  50  6  16   31  54  36
+
+
+          0123213YZabcdefghijklmnopqrstuvwxy
+Password [(q@)s^;8Yv~{[+wA }_=#g"e7WrWq\/4Qf]	Expected [{\w?(0.syJ0n<<2C *}.#ie]
+
+          A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A
+Password [b 2 N a 0 J S k + x D G M Y w B C E I Q g # h % l - 1 L W s _]	Expected [D-nA|-k60anz k9z}%T|{G]
+
+
+	  B B B B B B B B B B B B B B B B BBBBBBBBBBBBBBB
+Password [c 4 R i ' p ? ( r ] : 7 X u } ` @*v ~|^<"f!d6Vq]	Expected [D-nA|-k60anz k9z}%T|{G]
+
+
+
+
+AAAAAAA~
+
+33 -15 13 32 -17  9 18  42 -22 55  3   6 12 24 54  1  2   4  8  16 38 -30 39 -28 43 -20 -16  11 22  50 30 
+
+BBBBBBB~
+33 -14 16 39 -27 46 -3 -26  48 27 -8 -11 22 51 59 30 -2 -24 52 -34 60  58 28 -6  -32  36 -33 34 -12 20 47 
+
+A=A+33+index*A
+B=
+
+
+33 15 13 32 17  9 18 42 22 55 3 6  12 24 54  1 2 4  8  16 38 30 39 28 43 20 16 11 22 50 30 92
+
+33 14 16 39 27 46  3 26 48 27 8 11 22 51 59 30 2 24 52 34 60 58 28  6 32 36 33 34 12 20 47 93
+
+
+ 0 -1 3  7  10 37 15 -16 26 -28 5  10 27 
+
+
+
+
+
+
+
+          ABCDEFGHIZKLMNOPQRSTUVWXYZ
+Password [.2MXt`?'o<!c3Ob1aj(q@)s^;8]	Expected [ ;(o'S)5ARND5OWz?0 0R4R]
+
+          ABC
+Password [0IP]	Expected [ ;(o'S)5ARND5OWz?0 0R4R]
+          ABCD
+Password [1KTl]	Expected [ ;(o'S)5ARND5OWz?0 0R4R]
+
+          AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Password [r]:7Xu}`@*v ~|^<"f!d6Vq[,zHOc4R]	Expected [,7f8ZGL&h!{[IRtA0F$qLW]
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+Password [s_>&n;9b2Na0JSk+xDGMYwBCEIQg#h%]	Expected [,7f8ZGL&h!{[IRtA0F$qLW]
+          CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Password [t{\.3Pe8ZyFKUo=$j)t{\.3Pe8ZyFKU]	Expected [,7f8ZGL&h!{[IRtA0F$qLW]
+
+
+
+1씩 증가하는걸 저기서는 x2-1씩 증가
+
+
+,7f8ZGL&h!{[IRtA0F$qLW
+AAAAAAAAAAAAAAAAAAAAAA
+%lfzL \Zr])Wkcn`\e6>(
+
+
+%lfzL \Zr])Wkcn`\e6>(
+
+84 85 0 78  17  61  80  9  33  52  64  72  14  54
+ x2
+
+
+
+
+Password [3bfic8)i/rn y?i:*^7d^]	Expected [%lfzL \Zr])Wkcn`\e6>(]
+3bfic8)i/rn y?i:*^7d^
+Password [,_Q8JYF6[W[:}vj8_^/1n]	Expected [%lfzL \Zr])Wkcn`\e6>(]
+
+
+
+
+          ABCDE
+Password [:6Un:]	Expected [o=q*zO}?Tn9 }o<xXdr&CB]
+77 57 18 36 73
+
+x2-2 x2-1 x2-0 x2+1
+
+77 58 20 39 77
+
+ x2-1 x2-1 x2-1 x2-1
+
+
+
+          AB
+Password [-0]	        Expected [o=q*zO}?Tn9 }o<xXdr&CB]
+
+
+
+          ABCDEF
+Password [;8Yv~{]	Expected [o=q*zO}?Tn9 }o<xXdr&CB]
+         x2-2 x2-1 x2-0
+
+78 60 24 47 93 90
+
+x2-1 x2-1 x2-1
+
+
+
+
+ A       B      C     D E   F   G         H     I       J        K     L     M      N      O       P    g   h y  @  1  ^ 7  C :k
+  
+75      53     10   20 41  84   76       61    32   ?  54   ?   52    17    43      1      13     38   10 18 51 23 63 49 22 64 54 35
+  x2-2, x2-1, x2-0   x2+1 x2+2 x2+3  x2+4 x2+5    x2+6   x2+7     x2+8   x2+9 x2+10    x2+11   x2+12  x2+13
+              
+
+
+
+
+DDDDDD     
+Password [h%l-1L]	Expected [FJ?:OaB[-wF;5"c9cdmk:]
+BCDEFGHIJKLMN
+Password [r\-0IPd5Sj(q@]	Expected [FJ?:OaB[-wF;5"c9cdmk:]
+CDEFGHIJKLMNO  
+Password [s^;8Yv~{[+wA ]	Expected [FJ?:OaB[-wF;5"c9cdmk:]
+
+
+
+
+
+          ACEGIKMOQSU
+Password [o;7Vo;7Vo;7]	Expected [@z`GE.qj'm:&`;LSe3MPM;"n]
+          
+
+
+40 76 55 15 32 68 47 7 24 60 39
+
+
+02468ACEGIKM
+Password [g!b0HMWJQe6T]	Expected [@z`GE.qj'm:&`;LSe3MPM;"n]
+
+75 8 66 89 42 12 20 5 10 22 48 7
+
+
+abcdefghijklmnopqrstu
+Password [%k*u|]/4Qf9azGLVp>%k*]	Expected [@z`GE.qj'm:&`;LSe3MPM;"n]
+
+
+          ABCDEEEEEEFGHIJK
+Password [@)s^;8YwBCEIPd5S]	Expected [FVy^$P9p+"WZd_A;@1~,Mb?&]
+
+83 70 44 87 78 60 24 48 1 2 4 8 15 29 57 18
+ 
+
+          AAAAABCDEFGH
+Password [=#g"e7Wr]:7X]	Expected [FVy^$P9p+"WZd_A;@1~,Mb?&]
+
+80 64 32 63 30 58 20 40 82 72 53 16
+-1 -1 -1 -1 -2 -1 0  +2 +3 +4 +5
+A    
+Password [,]	Expected [FVy^$P9p+"WZd_A;@1~,Mb?&]
+
+
+
+
+
+5    21   50   87   65    15    61    41    72    63  22    25  29 88   0  78 83  53 93 73 12 27 82 67
+  -11  -8  -82   14    20   -31   -14   -85   -14    9  -76 -74 -30 81 -78 -22 18 -82 18 39 -3 -28 2
+66
+
+
+5    21    50 87 65 15 61 41 72 63 22 25 29 88 0 78 83 53 93 73 12 27 82 67
+  -11 -8    13 14 20 -31 81 10 81 9 19 21 -30 81 -78 73 18 13 18 39 -3 -28 2 66
+
+
+

@@ -1,0 +1,89 @@
+# i
+global stack, top, source, pc, count, ignore
+
+procedure main(args)
+  local file
+  if *args ~= 1 then{
+    write("Usage:\n\ti [source file]")
+  }else{
+    file := open(args[1], "r") | stop("File open error")
+    source := ""
+    while source := source || reads(file,1)
+    source := source || ";"
+    close(file)
+    initialize(1024 * 64) | stop("init error")
+    run() | stop("Program error")
+  }
+end
+
+procedure initialize(stack_size) 
+  stack := list(stack_size, 0)
+  top := 1
+  pc := 1
+  count := 0
+  return
+end
+
+procedure spush(x)
+  stack[top] := x
+  top := top + 1
+  return stack[top - 1]
+end
+
+procedure spop(x)
+  top := top - 1
+  return stack[top]
+end
+
+procedure instr(cmd)
+  local v1, v2
+  case cmd of {
+    "+" : spush(spop() + spop())
+    "*" : spush(spop() * spop())
+    "-" : v1 := spop() & v2 := spop() & spush(v2 - v1)
+    "/" : v1 := spop() & v2 := spop() & spush(v2 / v1)
+    "%" : v1 := spop() & v2 := spop() & spush(v2 % v1)
+    ">" : v1 := spop() & v2 := spop() & spush(if v2 > v1 then 1 else 0)
+    "<" : v1 := spop() & v2 := spop() & spush(if v2 < v1 then 1 else 0)
+    "=" : v1 := spop() & v2 := spop() & spush(if v2 = v1 then 1 else 0)
+    "," : writes(spop()) 
+    "." : writes(char(spop()))
+    ";" : return 1
+    "#" : spush(0)
+    "!" : spush(if spop() = 0 then 1 else 0)
+    ":" : v1 := spop() & spush(v1) & spush(v1)
+    "_" : spop()
+    "^" : v1 := spop() & v2 := spop() & spush(v1) & spush(v2)
+    "\\": v1 := spop() & spush(stack[top - v1 - 1])
+    "~" : spush(-spop())
+    "0" : spush(spop() * 10 + 0)
+    "1" : spush(spop() * 10 + 1)
+    "2" : spush(spop() * 10 + 2)
+    "3" : spush(spop() * 10 + 3)
+    "4" : spush(spop() * 10 + 4)
+    "5" : spush(spop() * 10 + 5)
+    "6" : spush(spop() * 10 + 6)
+    "7" : spush(spop() * 10 + 7)
+    "8" : spush(spop() * 10 + 8)
+    "9" : spush(spop() * 10 + 9)
+    "@" : pc := pc + spop()
+    "$" : {
+      top = 1 & fail
+      if spop() ~= 0 then pc := pc + spop() else 1
+    }
+    "i" : instr(char(spop()))
+    default: 1
+  } | fail
+  return 0
+end
+
+procedure run()
+  local ret
+  while count <= 1000000 do {
+    count := count + 1   
+    ret := instr(source[pc]) | fail
+    if ret = 1 then break
+    pc := pc + 1
+  }
+  return
+end

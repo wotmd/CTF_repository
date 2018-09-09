@@ -1,0 +1,18 @@
+DDDDDD
+   x2+3  ÀÌ´ø°¡
+
+BCDEFGHIJKLMN
+   for(i=0; i<alen; i++)
+   {
+	   printf("%d ",(95+br[i]-ar[i])%95);
+	   c[i]=(95+br[i]-ar[i])%95;
+   }
+   printf("\n");
+   sum=c[0];
+   for(i=0; i<alen; i++)
+   {
+	   printf("%d ",sum);
+	   sum*=2;
+	   sum+=ar[i]-2;
+	   sum%=95;
+   }

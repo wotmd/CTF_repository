@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AutopsyCase>
+  <CreatedDate>2015/12/25 00:31:45 (KST)</CreatedDate>
+  <ModifiedDate>2015/12/25 00:31:45 (KST)</ModifiedDate>
+  <AutopsyCreatedVersion>201306052037</AutopsyCreatedVersion>
+  <AutopsySavedVersion>201306052037</AutopsySavedVersion>
+  <SchemaVersion>1.0</SchemaVersion>
+  <Case>
+    <Name>1</Name>
+    <Number>1</Number>
+    <Examiner>1</Examiner>
+    <ExportFolder Relative="true">Export</ExportFolder>
+    <LogFolder Relative="true">Log</LogFolder>
+    <TempFolder Relative="true">Temp</TempFolder>
+    <CacheFolder Relative="true">Cache</CacheFolder>
+  </Case>
+</AutopsyCase>

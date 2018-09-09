@@ -1,0 +1,68 @@
+#include <stdio.h>
+#include <string.h>
+
+void Stage5()
+{
+   char str[]="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ ";
+   int i,j,temp=0;
+   int n,len,clen;
+   int cr[63];
+   int x,y,h,k;
+
+   char c[]="FJ?:OaB[-wF;5\"c9cdmk:";
+   int ci[63]={0};
+   int pl[63],repl[63];
+
+   len=strlen(str);
+   clen=strlen(c);
+   j=0;
+   
+   for(i=0; i<clen; i++)
+      for(j=0; j<95; j++)
+         if(c[i]==str[j])
+            cr[i]=j,printf("%d ",j);
+   printf("\n");
+
+   
+   for(i=0; i<clen-1; i++)
+   {
+	   ci[i]=2*cr[i]-cr[i+1];
+	   if(ci[i]<0)
+		   ci[i]+=95;
+	   else if(ci[i]>95)
+		   ci[i]%=95;
+   }
+   
+   for(i=0; i<clen-1; i++)
+   {
+	   printf("%d ", ci[i]);
+   }
+   
+
+   printf("\n");
+   pl[0]=0;
+
+   printf("Password : ");
+   for(i=0; i<clen-1; i++)
+	   pl[i+1]=((pl[i]+ci[i])+95)%95;
+   j=0;
+   for(i=clen-1; i>=0; i--)
+	   repl[i]=pl[j++];
+   
+   printf("\n");
+   for(i=0; i<clen; i++)
+	   printf("%d ", pl[i]);
+   printf("\n");
+   for(i=0; i<clen; i++)
+	   printf("%d ", repl[i]);
+	   
+   for(i=0; i<clen; i++)
+	   pl[i]=95-repl[i];
+   
+   for(j=0; j<95; j++)
+   {
+	   for(i=0; i<clen; i++)
+		   printf("%c", str[(pl[i]+j)%95]);
+	   printf("\n");
+   }
+}   

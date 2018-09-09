@@ -1,0 +1,7 @@
+192.168.222.1 - - [14/Nov/2015:12:55:53 +0900] "GET / HTTP/1.1" 200 3525 "-" "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+192.168.222.1 - - [14/Nov/2015:12:55:53 +0900] "GET /icons/ubuntu-logo.png HTTP/1.1" 200 3689 "http://192.168.222.138/" "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+192.168.222.1 - - [14/Nov/2015:12:55:54 +0900] "GET /favicon.ico HTTP/1.1" 404 506 "http://192.168.222.138/" "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+192.168.222.1 - - [14/Nov/2015:12:56:12 +0900] "GET /wordpress HTTP/1.1" 301 592 "-" "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+192.168.222.1 - - [14/Nov/2015:12:56:12 +0900] "GET /wordpress/ HTTP/1.1" 200 7743 "-" "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+192.168.222.1 - - [14/Nov/2015:12:56:27 +0900] "GET /wordpress/index.php HTTP/1.1" 301 319 "-" "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
+192.168.222.1 - - [14/Nov/2015:12:56:27 +0900] "GET /wordpress/ HTTP/1.1" 200 7743 "-" "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36"
